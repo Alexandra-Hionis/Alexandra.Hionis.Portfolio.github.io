@@ -5,9 +5,19 @@ import "./styles.css";
 
 function Navigation() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar className="nav-bar" collapseOnSelect expand="lg" variant="dark">
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home">
+          <img
+            alt=""
+            src={process.env.PUBLIC_URL + "/images/logo-ah.png"}
+            to="/services"
+            width="50"
+            height="50"
+            className="d-inline-block
+          align-top"
+          />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">

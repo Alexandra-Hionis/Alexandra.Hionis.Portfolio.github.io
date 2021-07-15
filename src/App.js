@@ -1,13 +1,14 @@
 import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Home from "./components/Home";
-import NavBar from "./components/NavBar";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Navbar from "./components/NavBar";
+import Portfolio from "./pages/portfolio";
 
 function Wrapper(props) {
   return (
     <>
-      <NavBar />
+      <Navbar />
       {props.children}
     </>
   );
@@ -16,9 +17,15 @@ function Wrapper(props) {
 function App() {
   return (
     <div className="App">
-      <Wrapper>
-        <Home></Home>
-      </Wrapper>
+      <Router>
+        <div>
+          <Switch>
+            <Wrapper>
+              <Route exact path="/" component={Portfolio} />
+            </Wrapper>
+          </Switch>
+        </div>
+      </Router>
     </div>
   );
 }
