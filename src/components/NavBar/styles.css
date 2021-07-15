@@ -1,3 +1,10 @@
 .nav-bar {
   background-color: transparent;
 }
+
+#services-nav-link {
+  background: #f35959;
+  color: #253e8f;
+  border-radius: 14px;
+  padding: 8px;
+}
