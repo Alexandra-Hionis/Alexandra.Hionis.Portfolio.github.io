@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css";
 import Philly from "../video/philly.mp4";
+import Poster from "../photobackground/philly-img.png";
 
 const Home = () => {
   return (
@@ -9,10 +10,11 @@ const Home = () => {
         autoPlay
         loop
         muted
+        poster={Poster}
         // Played around with styling to also fit navbar
         style={{
           position: "absolute",
-          filter: "brightness(65%)",
+          filter: "brightness(45%)",
           width: "100%",
           left: "50%",
           top: "50%",
@@ -24,9 +26,13 @@ const Home = () => {
       >
         <source src={Philly} type="video/mp4" />
       </video>
+      {/* <img
+        src={process.env.PUBLIC_URL + "/philly-img.png"}
+        alt="philadelphia skyline"
+      /> */}
       <div className="title">
-        <h1>Alexandra Hionis</h1>
-        <h1>Front End Web Developer</h1>
+        <h1 className="header">Alexandra Hionis</h1>
+        <h1 className="header">Front End Web Developer</h1>
       </div>
     </div>
   );

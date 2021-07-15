@@ -1,7 +1,6 @@
 .title {
   top: 50%;
   transform: translateY(-50%);
-  font-size: 3.7vw;
   padding: 5px;
   position: absolute;
   right: 5%;
@@ -11,4 +10,9 @@
   padding-bottom: 2.25rem;
   color: #fff;
   text-align: center;
+}
+
+.header {
+  font-size: 4.7vw;
+  font-weight: bold;
 }
