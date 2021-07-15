@@ -9,7 +9,7 @@ function Navigation() {
       <Container>
         <Navbar.Brand href="#home">
           <img
-            alt=""
+            alt="logo"
             src={process.env.PUBLIC_URL + "/images/logo-ah.png"}
             to="/services"
             width="50"
