@@ -1,10 +1,10 @@
 import React from "react";
-import VideoBackground from "../components/VideoBackground";
+import VideoCarousel from "../components/VideoCarousel";
 
 function Portfolio() {
   return (
     <div>
-      <VideoBackground></VideoBackground>
+      <VideoCarousel></VideoCarousel>
     </div>
   );
 }
