@@ -1,12 +1,10 @@
 import React from "react";
-import Home from "../components/Home";
-import HomeHeader from "../components/HomeHeader";
+import VideoBackground from "../components/VideoBackground";
 
 function Portfolio() {
   return (
     <div>
-      <Home></Home>
-      <HomeHeader></HomeHeader>
+      <VideoBackground></VideoBackground>
     </div>
   );
 }
