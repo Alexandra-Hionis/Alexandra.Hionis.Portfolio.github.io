@@ -1,9 +1,15 @@
 .nav-bar {
-  position: absolute;
+  /* position: absolute;
   top: 10px;
   width: 100%;
-  z-index: 999;
-  /* background-color: transparent !important; */
+  z-index: 999; */
+  background-image: linear-gradient(
+    15deg,
+    #554f4f 15%,
+    #545150 10%,
+    #48484c 90%
+  );
+  font-family: "Montserrat", sans-serif;
 }
 
 #services-nav-link {
