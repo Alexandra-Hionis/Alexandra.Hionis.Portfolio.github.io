@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 
-function ProjectsHeader() {
+function AboutHeader() {
   return (
     <Container>
       <Row>
@@ -13,4 +13,4 @@ function ProjectsHeader() {
   );
 }
 
-export default ProjectsHeader;
+export default AboutHeader;
