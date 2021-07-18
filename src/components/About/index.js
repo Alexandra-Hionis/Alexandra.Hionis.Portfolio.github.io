@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 
-function AboutHeader() {
+function About() {
   return (
     <Container>
       <Row>
@@ -42,4 +42,4 @@ function AboutHeader() {
   );
 }
 
-export default AboutHeader;
+export default About;
