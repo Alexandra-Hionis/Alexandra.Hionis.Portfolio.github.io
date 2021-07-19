@@ -1,11 +1,33 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
+import { useEffect } from "react";
+import { motion } from "framer-motion";
+
+import { useInView } from "react-intersection-observer";
+import { useAnimation } from "framer-motion";
 
 function About() {
+  const { ref, inView } = useInView();
+  const animation = useAnimation();
+  useEffect(() => {
+    console.log("use effect hook, inView = ", inView);
+    //   if parent in view, start animation
+    if (inView) {
+      animation.start({
+        opacity: 1,
+        scale: 1,
+        duration: 3,
+      });
+    }
+    // if not in view, start another animation. Completely off screen
+    if (!inView) {
+      animation.start({ opacity: 0, scale: 0 });
+    }
+  }, [inView]);
   return (
     <Container>
-      <Row>
-        <div className="row columns">
+      <motion.div animate={animation}>
+        <Row>
           <Col md={4}>
             <h3 className="about-section-header">Learner</h3>
             <p className="about-paragraphs">
@@ -36,8 +58,9 @@ function About() {
               others around me.
             </p>
           </Col>
-        </div>
-      </Row>
+        </Row>
+      </motion.div>
+      <div ref={ref}></div>
     </Container>
   );
 }
