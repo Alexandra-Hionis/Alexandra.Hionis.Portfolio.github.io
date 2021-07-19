@@ -38,33 +38,3 @@ const VideoBackground = () => {
 };
 
 export default VideoBackground;
-
-{
-  /* <Carousel className="carousel slide">
-<Carousel.Item>
-  <video
-    autoPlay
-    loop
-    muted
-    poster={Poster}
-    style={{ filter: "brightness(45%)" }}
-    // Played around with styling to also fit navbar
-    className="d-block w-100"
-  >
-    <source src={Philly} type="video/mp4" />
-  </video>
-  <Carousel.Caption>
-    <h1 className="header">Alexandra Hionis</h1>
-    <h1 className="header">Front End Web Developer</h1>
-    <Typewriter
-      className="Typewriter__wrapper Typewriter__cursor"
-      options={{
-        strings: ["I bring websites to life"],
-        autoStart: true,
-        loop: true,
-      }}
-    />
-  </Carousel.Caption>
-</Carousel.Item>
-</Carousel> */
-}
