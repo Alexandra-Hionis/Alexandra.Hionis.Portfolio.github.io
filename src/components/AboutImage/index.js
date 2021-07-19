@@ -9,7 +9,7 @@ import { useAnimation } from "framer-motion";
 // import { TweenMax, Power3 } from "gsap";
 // import { gsap } from "gsap";
 
-const AboutInfo = () => {
+const AboutImage = () => {
   // inView results in a boolean that specify if an element is in view. Ture means in view. The ref we assign to the element we want to target.
   const { ref, inView } = useInView();
   const animation = useAnimation();
@@ -23,7 +23,7 @@ const AboutInfo = () => {
     }
     // if not in view, start another animation. Completely off screen
     if (!inView) {
-      animation.start({ x: "100vw" });
+      animation.start({ x: "-100vw" });
     }
   }, [inView]);
   //   useEffect hook accepts another parameter of type array and in that array you can specify what data can be monitored
@@ -32,28 +32,26 @@ const AboutInfo = () => {
     <Container>
       <Row>
         <Col lg={12}>
-          {/* we want to puth parent div left off screen and let it slide in */}
+          {/* we want to puth parent div left off screen and let it slide in. We use x and y, so x moves it to the left when it's a negative numeber. Y translates to top when it's a negative number*/}
           <motion.div
-            className={classes.info}
-            // inside prop we give hook animation
-            // initial={{ x: "100vw" }}
+            className={classes.image}
+            // initial={{ x: "-100vw" }}
             animate={animation}
             // transition={{ type: "slide", duration: 2, bounce: 0.3 }}
           >
-            <h1>Web Developer</h1>
-            <p>
-              I am an aspiring full stack web developer, with focus on front end
-              development. I love to study new code and build a more intuitive
-              user experience on the web. With each project, my aim is to best
-              engage my audience for an impactful user experience, both visually
-              and behind the scenes.
-            </p>
-            <p>
-              In my spare time I enjoy spending time with my girlfriend, family
-              and friends. I enjoy cooking, kickboxing, photography, traveling
-              and skiing. I am a part of the LGBTQIA+ community and I am always
-              open to new adventures!
-            </p>
+            <img
+              // ref={(el) => {
+              //   logoItem = el;
+              // }}
+              alt="Alexandra Hionis"
+              src={process.env.PUBLIC_URL + "/images/myPhoto.JPG"}
+              to="/services"
+              width="320px"
+              height="300px"
+              // width="100%"
+              // height="100%"
+              className="my-photo"
+            />
           </motion.div>
         </Col>
       </Row>
@@ -62,4 +60,4 @@ const AboutInfo = () => {
   );
 };
 
-export default AboutInfo;
+export default AboutImage;
