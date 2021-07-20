@@ -5,9 +5,14 @@ import "./styles.css";
 
 function Navigation() {
   return (
-    <Navbar className="nav-bar" collapseOnSelect expand="lg" variant="dark">
+    <Navbar
+      className="nav-bar fixed-top"
+      collapseOnSelect
+      expand="lg"
+      variant="dark"
+    >
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           <img
             alt="logo"
             src={process.env.PUBLIC_URL + "/images/logo-ah.png"}

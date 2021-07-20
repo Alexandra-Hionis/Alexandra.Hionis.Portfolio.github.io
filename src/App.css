@@ -1,17 +1,14 @@
-* {
+/* * {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-}
-html,
-body,
-body > div,
-.app {
-  height: 100%;
+} */
+body {
+  padding-top: 76px;
 }
 .App {
   text-align: center;
 }
 .background-color {
-  background-color: white;
+  background-color: #f9fcff;
 }

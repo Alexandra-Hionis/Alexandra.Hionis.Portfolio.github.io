@@ -1,5 +1,6 @@
 import React from "react";
 import VideoCarousel from "../components/VideoCarousel";
+
 import Arrow from "../components/Arrow";
 import AboutHeader from "../components/AboutHeader";
 import About from "../components/About";
@@ -8,10 +9,12 @@ import AboutImage from "../components/AboutImage";
 import ProjectsHeader from "../components/ProjectsHeader";
 import Projects from "../components/Projects";
 import { Row, Col } from "react-bootstrap";
+
 function Portfolio() {
   return (
     <>
       <VideoCarousel></VideoCarousel>
+
       <Arrow></Arrow>
       <AboutHeader></AboutHeader>
       <About></About>

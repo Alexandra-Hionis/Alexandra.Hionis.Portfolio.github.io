@@ -25,16 +25,18 @@ const About = () => {
     }
   }, [inView]);
   return (
-    <Container>
-      <motion.div animate={animation}>
-        <Row>
-          <Col md={12}>
-            <h1>About</h1>
-          </Col>
-        </Row>
-      </motion.div>
-      <div ref={ref}></div>
-    </Container>
+    <div id="about">
+      <Container>
+        <motion.div animate={animation}>
+          <Row>
+            <Col md={12}>
+              <h1>About</h1>
+            </Col>
+          </Row>
+        </motion.div>
+        <div ref={ref}></div>
+      </Container>
+    </div>
   );
 };
 
