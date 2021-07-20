@@ -19,7 +19,7 @@ const AboutInfo = () => {
     console.log("use effect hook, inView = ", inView);
     //   if parent in view, start animation
     if (inView) {
-      animation.start({ x: 0, transition: { type: "slide, duration: 3" } });
+      animation.start({ x: 0, transition: { duration: 1 } });
     }
     // if not in view, start another animation. Completely off screen
     if (!inView) {

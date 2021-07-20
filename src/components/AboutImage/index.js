@@ -19,11 +19,11 @@ const AboutImage = () => {
     console.log("use effect hook, inView = ", inView);
     //   if parent in view, start animation
     if (inView) {
-      animation.start({ x: 0, transition: { type: "slide, duration: 3" } });
+      animation.start({ x: 0, transition: { duration: 2 } });
     }
     // if not in view, start another animation. Completely off screen
     if (!inView) {
-      animation.start({ x: "-100vw" });
+      animation.start({ x: "-100vw", transition: { duration: 2 } });
     }
   }, [inView]);
   //   useEffect hook accepts another parameter of type array and in that array you can specify what data can be monitored
