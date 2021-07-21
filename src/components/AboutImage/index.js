@@ -48,6 +48,7 @@ const AboutImage = () => {
               to="/services"
               width="320px"
               height="300px"
+              border="3px solid black"
               // width="100%"
               // height="100%"
               className="my-photo"

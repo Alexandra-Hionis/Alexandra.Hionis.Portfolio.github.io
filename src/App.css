@@ -1,14 +1,15 @@
-/* * {
+* {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-} */
+}
 body {
   padding-top: 76px;
 }
 .App {
   text-align: center;
+  background-image: "./images/background-1.png";
 }
-.background-color {
+/* .background-color {
   background-color: #f9fcff;
-}
+  /* background-color: #46248f; */
