@@ -1,4 +1,5 @@
 import React from "react";
+import "./styles.css";
 import { Row, Col, Container } from "react-bootstrap";
 import { useEffect } from "react";
 import { motion } from "framer-motion";
@@ -30,7 +31,7 @@ const About = () => {
         <motion.div animate={animation}>
           <Row>
             <Col md={12}>
-              <h1>About</h1>
+              <h1 className="header-font">About</h1>
             </Col>
           </Row>
         </motion.div>

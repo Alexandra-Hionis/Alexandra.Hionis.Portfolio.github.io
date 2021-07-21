@@ -34,7 +34,7 @@ const AboutInfo = () => {
         <Col lg={12}>
           {/* we want to puth parent div left off screen and let it slide in */}
           <motion.div
-            className={classes.info}
+            className="info-div"
             // inside prop we give hook animation
             // initial={{ x: "100vw" }}
             animate={animation}

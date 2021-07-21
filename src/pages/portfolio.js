@@ -1,6 +1,6 @@
 import React from "react";
 import VideoCarousel from "../components/VideoCarousel";
-
+import Welcome from "../components/Welcome";
 import Arrow from "../components/Arrow";
 import AboutHeader from "../components/AboutHeader";
 import About from "../components/About";
@@ -14,8 +14,10 @@ function Portfolio() {
   return (
     <>
       <VideoCarousel></VideoCarousel>
-
       <Arrow></Arrow>
+      <Welcome></Welcome>
+      <br></br>
+
       <AboutHeader></AboutHeader>
       <About></About>
 

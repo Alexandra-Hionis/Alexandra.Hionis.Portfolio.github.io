@@ -34,7 +34,6 @@ const AboutImage = () => {
         <Col lg={12}>
           {/* we want to puth parent div left off screen and let it slide in. We use x and y, so x moves it to the left when it's a negative numeber. Y translates to top when it's a negative number*/}
           <motion.div
-            className={classes.image}
             // initial={{ x: "-100vw" }}
             animate={animation}
             // transition={{ type: "slide", duration: 2, bounce: 0.3 }}
@@ -48,7 +47,7 @@ const AboutImage = () => {
               to="/services"
               width="320px"
               height="300px"
-              border="3px solid black"
+              border="!3px solid black"
               // width="100%"
               // height="100%"
               className="my-photo"

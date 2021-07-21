@@ -1,0 +1,8 @@
+#scroll-down {
+  margin-top: 150px;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  display: flex;
+  justify-content: center;
+  color: black;
+}

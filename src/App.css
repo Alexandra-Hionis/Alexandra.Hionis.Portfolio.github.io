@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+  color: seashell;
 }
 body {
   padding-top: 76px;
@@ -9,7 +10,10 @@ body {
 .App {
   text-align: center;
   background-image: "./images/background-1.png";
+  font-family: "Montserrat", sans-serif;
 }
-/* .background-color {
-  background-color: #f9fcff;
-  /* background-color: #46248f; */
+.background-color {
+  background-color: #252d3f;
+  /* background-color: #2d264b; */
+  /* background-color: #46248f;*/
+}
