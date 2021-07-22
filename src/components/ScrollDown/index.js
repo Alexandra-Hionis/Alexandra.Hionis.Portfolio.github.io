@@ -68,7 +68,9 @@ const Welcome = () => {
             </h1>
             <h1>Scroll DOWN</h1> */}
               <div className="">
-                <h1 className="box one">scroll down for more!</h1>
+                <h1 className="box scroll">
+                  scroll<br></br> down for<br></br> more!
+                </h1>
                 {/* <div className="box two">ease-in</div>
                 <div className="box three">ease-out</div> */}
               </div>

@@ -1,7 +1,9 @@
 import React from "react";
 import VideoCarousel from "../components/VideoCarousel";
+import Message from "../components/Message";
 import Welcome from "../components/Welcome";
-import Arrow from "../components/Arrow";
+import ScrollDown from "../components/ScrollDown";
+
 import AboutHeader from "../components/AboutHeader";
 import About from "../components/About";
 import AboutInfo from "../components/AboutInfo";
@@ -14,14 +16,13 @@ function Portfolio() {
   return (
     <>
       <VideoCarousel></VideoCarousel>
-      <Arrow></Arrow>
+      <Message></Message>
       <Welcome></Welcome>
-      <br></br>
-
+      <ScrollDown></ScrollDown>
       <AboutHeader></AboutHeader>
       <About></About>
 
-      <Row>
+      <Row style={{ textAlign: "center" }}>
         <Col md={6}>
           <AboutImage></AboutImage>
         </Col>

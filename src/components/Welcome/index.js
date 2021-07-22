@@ -19,7 +19,7 @@ const Welcome = () => {
     console.log("use effect hook, inView = ", inView);
     //   if parent in view, start animation
     if (inView) {
-      animation.start({ y: 0, transition: { duration: 2 } });
+      animation.start({ y: 0, transition: { duration: 1 } });
     }
     // if not in view, start another animation. Completely off screen
     if (!inView) {
@@ -54,7 +54,7 @@ const Welcome = () => {
     <Container>
       <div ref={ref}>
         <Row>
-          <Col lg={12} style={{ marginTop: "240px" }}>
+          <Col lg={12} style={{ marginTop: "240px", textAlign: "left" }}>
             {/* we want to puth parent div left off screen and let it slide in */}
             <motion.div className={classes.info} animate={animation}>
               {/* <h1 style={{ fontSize: "30px" }}>
@@ -68,10 +68,11 @@ const Welcome = () => {
             </h1>
             <h1>Scroll DOWN</h1> */}
               <div className="">
-                <h1 className="box one">welcome to my page</h1>
+                <h1 className="box welcome">
+                  welcome <br></br>to my<br></br> page
+                </h1>
                 {/* <div className="box two">ease-in</div>
                 <div className="box three">ease-out</div> */}
-                <div className="box one">scroll down for more!</div>
               </div>
             </motion.div>
           </Col>
