@@ -13,7 +13,7 @@ function Navigation() {
     >
       <Container>
         <Navbar.Brand href="/">
-          <img
+          {/* <img
             alt="logo"
             src={process.env.PUBLIC_URL + "/images/logo-ah.png"}
             to="/services"
@@ -21,7 +21,7 @@ function Navigation() {
             height="50"
             className="d-inline-block
           align-top"
-          />
+          /> */}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

@@ -17,6 +17,7 @@ function Portfolio() {
     <>
       <VideoCarousel></VideoCarousel>
       <Message></Message>
+
       <Welcome></Welcome>
       <ScrollDown></ScrollDown>
       <AboutHeader></AboutHeader>
