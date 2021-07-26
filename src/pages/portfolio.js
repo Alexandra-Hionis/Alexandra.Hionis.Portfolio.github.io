@@ -1,9 +1,5 @@
 import React from "react";
 import VideoCarousel from "../components/VideoCarousel";
-import Message from "../components/Message";
-import Welcome from "../components/Welcome";
-import ScrollDown from "../components/ScrollDown";
-
 import AboutHeader from "../components/AboutHeader";
 import About from "../components/About";
 import AboutInfo from "../components/AboutInfo";
@@ -16,10 +12,7 @@ function Portfolio() {
   return (
     <>
       <VideoCarousel></VideoCarousel>
-      <Message></Message>
 
-      <Welcome></Welcome>
-      <ScrollDown></ScrollDown>
       <AboutHeader></AboutHeader>
       <About></About>
 

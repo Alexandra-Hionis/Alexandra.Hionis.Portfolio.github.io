@@ -17,7 +17,7 @@ const About = () => {
       animation.start({
         opacity: 1,
         scale: 1,
-        transition: { duration: 1.5 },
+        transition: { duration: 0.5 },
       });
     }
     // if not in view, start another animation. Completely off screen
