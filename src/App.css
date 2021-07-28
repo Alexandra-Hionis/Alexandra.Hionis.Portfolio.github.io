@@ -5,7 +5,7 @@
   color: seashell;
 }
 body {
-  padding-top: 76px;
+  padding-top: 75px;
 
   /* width: 100% !important; */
 }
@@ -16,11 +16,13 @@ body {
   font-family: "Montserrat", sans-serif;
 } */
 .background-color {
-  background-color: #252d3f;
+  background-color: seashell;
+  /* background-color: #252d3f; */
   /* background-color: #2d264b; */
   /* background-color: #46248f;*/
 }
 
 .App {
-  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  /* font-family: "Montserrat", sans-serif; */
 }

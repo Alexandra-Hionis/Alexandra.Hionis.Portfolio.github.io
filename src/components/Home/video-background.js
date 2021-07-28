@@ -16,8 +16,6 @@ const VideoCarousel = () => {
         <Carousel.Item className="carousel-item">
           <video
             className="d-block w-100"
-            preload="auto"
-            playsinline
             autoPlay
             loop
             muted
@@ -26,11 +24,11 @@ const VideoCarousel = () => {
             // Played around with styling to also fit navbar
           >
             <source src={Philly} type="video/mp4" />
-            <source
-              src={PhillyMobile}
-              type="video/mp4"
+            {/* <source
+              src={MobileBg}
+              type="image"
               media="(min-width:0px) and (max-width:767px)"
-            />
+            /> */}
           </video>
           {/* Set overflowY to hidden so scroll bar in div disappears  */}
           <Carousel.Caption style={{ overflowY: "hidden" }}>

@@ -1,12 +1,22 @@
-.header-font {
-  font-family: "Montserrat", sans-serif;
-  text-align: left !important;
+.about-div {
+  background-color: #252d3f;
+  padding-bottom: 20px;
+}
+.title-font {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin-top: 10%;
+  font-size: 1.5em;
 }
 
 #my-photo {
   align-content: center !important;
 }
-
-.info-div {
-  text-align: center !important;
+#about-me {
+  margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
 }
+
+/* .info-div {
+  text-align: center !important;
+} */

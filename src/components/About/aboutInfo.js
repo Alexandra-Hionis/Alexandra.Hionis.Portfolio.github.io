@@ -31,7 +31,8 @@ const AboutInfo = () => {
   return (
     <Container>
       <Row>
-        <Col lg={12}>
+        <Col lg={2}></Col>
+        <Col lg={8}>
           {/* we want to puth parent div left off screen and let it slide in */}
           <motion.div
             className="info-div"
@@ -40,22 +41,18 @@ const AboutInfo = () => {
             animate={animation}
             // transition={{ type: "slide", duration: 2, bounce: 0.3 }}
           >
-            <h1>Web Developer</h1>
-            <p>
-              I am an aspiring full stack web developer, with focus on front end
-              development. I love to study new code and build a more intuitive
-              user experience on the web. With each project, my aim is to best
-              engage my audience for an impactful user experience, both visually
-              and behind the scenes.
-            </p>
-            <p>
-              In my spare time I enjoy spending time with my girlfriend, family
-              and friends. I enjoy cooking, kickboxing, photography, traveling
-              and skiing. I am a part of the LGBTQIA+ community and I am always
-              open to new adventures!
+            <p id="about-me">
+              I am a front end web developer living in Philadelphia, PA. I have
+              1 year experience building 20+ projects and gained great skills in
+              HTML5, CSS3, JAVASCRIPT, REACT.JS, BOOTSTRAP, and more! I have a
+              serious passion for coding and bringing ideas to life. If you're
+              looking for a simple and beauftiful website, you've found the
+              right place! And if you're looking for a quietly confident and
+              naturally curious developer, you've found one!
             </p>
           </motion.div>
         </Col>
+        <Col lg={2}></Col>
       </Row>
       <div ref={ref}></div>
     </Container>
