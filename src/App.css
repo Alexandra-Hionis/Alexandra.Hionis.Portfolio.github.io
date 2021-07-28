@@ -6,7 +6,10 @@
 }
 body {
   padding-top: 76px;
+
+  /* width: 100% !important; */
 }
+
 /* .App {
   text-align: center;
  

@@ -25,7 +25,7 @@ const About = () => {
     }
   }, [inView]);
   return (
-    <div ref={ref}>
+    <div ref={ref} className="about-div">
       <Container>
         <motion.div animate={animation}>
           <Row>
