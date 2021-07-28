@@ -87,7 +87,7 @@
     content: "";
     width: 100%;
     height: 553.5px;
-    background-image: url(./philly-mobile.mp4);
+    /* background-image: url(./philly-mobile.mp4); */
     background-size: cover;
   }
 }
