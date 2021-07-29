@@ -1,15 +1,28 @@
 .services {
   color: #252d3f;
-  padding: 40px;
+  border: lightgrey solid 0.5px;
+  border-radius: 25px;
+  padding: 1em;
+  height: 5%;
 }
 .services-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
   font-size: 3em;
+  text-transform: uppercase;
+  /* font-weight: bold; */
 }
 
 .sub-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  font-size: 1.7em;
+  font-family: "Montserrat", sans-serif;
+  /* font-weight: bold; */
+  font-size: 1em;
+}
+
+.border-left {
+  border-left: lightgrey solid 0.5px;
+}
+@media (max-width: 767px) {
+  .border-left {
+    border: 0px solid !important;
+  }
 }

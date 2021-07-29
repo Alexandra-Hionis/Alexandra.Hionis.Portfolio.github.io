@@ -17,7 +17,7 @@ const ServicesTitle = () => {
       animation.start({
         opacity: 1,
         scale: 1,
-        transition: { duration: 0.5 },
+        transition: { duration: 2 },
       });
     }
     // if not in view, start another animation. Completely off screen
@@ -32,8 +32,10 @@ const ServicesTitle = () => {
           <Row>
             <Col md={12}>
               <h1 className="services-title">Services</h1>
-              <h1 className="sub-title">Need a website?</h1>
-              <p>I build and code websites for you or your small business!</p>
+              <h1 className="sub-title">
+                I will build websites for you or your small business! Check out
+                my skills below.
+              </h1>
             </Col>
           </Row>
         </motion.div>
