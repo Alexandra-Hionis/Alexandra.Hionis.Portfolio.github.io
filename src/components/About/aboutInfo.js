@@ -30,31 +30,42 @@ const AboutInfo = () => {
 
   return (
     <Container>
-      <Row>
-        <Col lg={2}></Col>
-        <Col lg={8}>
-          {/* we want to puth parent div left off screen and let it slide in */}
-          <motion.div
-            className="info-div"
-            // inside prop we give hook animation
-            // initial={{ x: "100vw" }}
-            animate={animation}
-            // transition={{ type: "slide", duration: 2, bounce: 0.3 }}
-          >
-            <p id="about-me">
-              I am a front end web developer living in Philadelphia, PA. I have
-              1 year experience building 20+ projects and gained great skills in
-              HTML5, CSS3, JAVASCRIPT, REACT.JS, BOOTSTRAP, and more! I have a
-              serious passion for coding and bringing ideas to life. If you're
-              looking for a simple and beauftiful website, you've found the
-              right place! And if you're looking for a quietly confident and
-              naturally curious developer, you've found one!
-            </p>
-          </motion.div>
-        </Col>
-        <Col lg={2}></Col>
-      </Row>
-      <div ref={ref}></div>
+      <div ref={ref}>
+        <Row>
+          <Col lg={2}></Col>
+          <Col lg={8}>
+            {/* we want to puth parent div left off screen and let it slide in */}
+            <motion.div
+              className="info-div"
+              // inside prop we give hook animation
+              // initial={{ x: "100vw" }}
+              animate={animation}
+              // transition={{ type: "slide", duration: 2, bounce: 0.3 }}
+            >
+              <p id="about-me">
+                I am a{" "}
+                <span className="about-info">Front End Web Developer</span>{" "}
+                living in Philadelphia, PA. I have 1 year experience building
+                20+ projects and gained great skills in{" "}
+                <span className="about-info">
+                  HTML5, CSS3, JAVASCRIPT, REACT.JS, Node.JS, BOOTSTRAP,{" "}
+                </span>{" "}
+                and more! I have a serious passion for coding and bringing ideas
+                to life. If you're looking for a{" "}
+                <span className="about-info">
+                  simple and beauftiful website,{" "}
+                </span>{" "}
+                you've found the right place! And if you're looking for a{" "}
+                <span className="about-info">
+                  quietly confident and naturally curious developer,
+                </span>{" "}
+                you've found one!
+              </p>
+            </motion.div>
+          </Col>
+          <Col lg={2}></Col>
+        </Row>
+      </div>
     </Container>
   );
 };

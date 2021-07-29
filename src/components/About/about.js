@@ -26,7 +26,7 @@ const About = () => {
     }
   }, [inView]);
   return (
-    <div ref={ref} className="about-div">
+    <div ref={ref} className="about-div" style={{ position: "", zIndex: -1 }}>
       <Container>
         <AboutTitle />
         <AboutInfo />

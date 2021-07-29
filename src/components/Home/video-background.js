@@ -11,7 +11,7 @@ import Carousel from "react-bootstrap/Carousel";
 
 const VideoCarousel = () => {
   return (
-    <div className="video-div">
+    <div>
       <Carousel>
         <Carousel.Item className="carousel-item">
           <video

@@ -2,7 +2,7 @@
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  color: seashell;
+  /* color: seashell; */
 }
 body {
   padding-top: 75px;
@@ -16,7 +16,7 @@ body {
   font-family: "Montserrat", sans-serif;
 } */
 .background-color {
-  background-color: seashell;
+  background-color: white;
   /* background-color: #252d3f; */
   /* background-color: #2d264b; */
   /* background-color: #46248f;*/

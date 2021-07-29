@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useAnimation } from "framer-motion";
 
-const AboutTitle = () => {
+const ServicesTitle = () => {
   const { ref, inView } = useInView();
   const animation = useAnimation();
   useEffect(() => {
@@ -26,14 +26,16 @@ const AboutTitle = () => {
     }
   }, [inView]);
   return (
-    <div id="about">
+    <div id="services">
       <Container>
         <motion.div animate={animation}>
           <Row>
             <Col md={12}>
-              <h1 className="about-title-font">
-                Welcome to my page! Nice to meet you.
-              </h1>
+              <h1 className="title-font">Services</h1>
+              <p>
+                I build and code beautifully simple things, and I love what I
+                do.
+              </p>
             </Col>
           </Row>
         </motion.div>
@@ -43,4 +45,4 @@ const AboutTitle = () => {
   );
 };
 
-export default AboutTitle;
+export default ServicesTitle;

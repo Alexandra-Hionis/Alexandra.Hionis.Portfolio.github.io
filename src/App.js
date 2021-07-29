@@ -7,6 +7,7 @@ import Navbar from "./components/NavBar";
 import Home from "./components/Home/video-background";
 
 import About from "./components/About/about";
+import Services from "./components/Services/services";
 
 function Wrapper(props) {
   return (
@@ -26,7 +27,8 @@ function App() {
             <Wrapper>
               <Route exact path="/" component={Home} />
 
-              <About></About>
+              <About />
+              <Services />
             </Wrapper>
           </Switch>
         </div>
