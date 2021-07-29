@@ -28,16 +28,17 @@ const AboutTitle = () => {
   return (
     <div id="about">
       <Container>
-        <motion.div animate={animation}>
-          <Row>
-            <Col md={12}>
-              <h1 className="about-title-font">
-                Welcome to my page! Nice to meet you.
-              </h1>
-            </Col>
-          </Row>
-        </motion.div>
-        <div ref={ref}></div>
+        <div ref={ref}>
+          <motion.div animate={animation}>
+            <Row>
+              <Col md={12}>
+                <h1 className="about-title-font">
+                  Welcome to my page! Nice to meet you.
+                </h1>
+              </Col>
+            </Row>
+          </motion.div>
+        </div>
       </Container>
     </div>
   );
