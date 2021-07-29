@@ -6,6 +6,7 @@ import { useInView } from "react-intersection-observer";
 import { useAnimation } from "framer-motion";
 import AboutTitle from "./aboutTitle";
 import AboutInfo from "./aboutInfo";
+// import AboutImage from "./image";
 
 const About = () => {
   const { ref, inView } = useInView();
@@ -26,8 +27,9 @@ const About = () => {
     }
   }, [inView]);
   return (
-    <div ref={ref} className="about-div" style={{ position: "", zIndex: -1 }}>
+    <div ref={ref} className="about-div overlap-1">
       <Container>
+        {/* <AboutImage /> */}
         <AboutTitle />
         <AboutInfo />
         <motion.div animate={animation}></motion.div>

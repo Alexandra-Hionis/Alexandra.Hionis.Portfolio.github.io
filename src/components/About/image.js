@@ -43,14 +43,11 @@ const AboutImage = () => {
               //   logoItem = el;
               // }}
               alt="Alexandra Hionis"
-              src={process.env.PUBLIC_URL + "/images/myPhoto.JPG"}
+              src={process.env.PUBLIC_URL + "/images/my-image.png"}
               to="/services"
-              width="320px"
-              height="300px"
-              border="!3px solid black"
               // width="100%"
               // height="100%"
-              className="my-photo"
+              id="my-photo"
             />
           </motion.div>
         </Col>

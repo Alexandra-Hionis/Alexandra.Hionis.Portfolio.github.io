@@ -26,3 +26,11 @@ body {
   text-align: center;
   /* font-family: "Montserrat", sans-serif; */
 }
+
+/* Styles components share */
+.title-font {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin-top: 10%;
+  font-size: 1.7em;
+}

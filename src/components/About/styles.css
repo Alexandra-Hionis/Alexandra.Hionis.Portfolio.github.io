@@ -1,17 +1,18 @@
 .about-div {
   background-color: #252d3f;
   padding-bottom: 209px;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  /* clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%); */
   color: seashell;
-}
-.about-title-font {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  margin-top: 10%;
-  font-size: 1.5em;
 }
 
 #my-photo {
-  align-content: center !important;
+  /* align-content: center !important; */
+  margin-top: 10%;
+  margin-bottom: 20px;
+  width: 150px;
+  height: 150px;
 }
 #about-me {
   margin-top: 20px;

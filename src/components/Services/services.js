@@ -5,11 +5,8 @@ import ServicesTitle from "./servicesTitle";
 function Services() {
   return (
     <Container>
-      <div
-        className="services shadow rounded"
-        style={{ zIndex: "50", position: "relative" }}
-      >
-        <ServicesTitle />
+      <ServicesTitle />
+      <div className="services shadow rounded">
         <p>
           d;akjdbs;ks;kdfb;s jbf;skjbfsajd fb;sakdjfbsa;kdjfb;
           askdjfba;skdjfb;skdjbf;skjdbf; skjdfb;skjdfb skdjfb;skjdfbs;kdjfb
@@ -29,6 +26,12 @@ function Services() {
           askdjfba;skdjfb;skdjbf;skjdbf; skjdfb;skjdfb skdjfb;skjdfbs;kdjfb
           askdh ashd apoquwepoque sgfpsog pofupshfosidhgo haips osidhf
           oishfdoshfqp hoahifoai oahf oaihfoasi oafh aoh oafh
+        </p>
+        <p>
+          {" "}
+          Now I can confidently say I know HTML, CSS, a decent amount of
+          Javascript, React.js, Node.js, Git, Version Control, MySQL, MongoDB,
+          Express and more
         </p>
       </div>
     </Container>

@@ -32,7 +32,7 @@ const AboutTitle = () => {
           <motion.div animate={animation}>
             <Row>
               <Col md={12}>
-                <h1 className="about-title-font">
+                <h1 className="title-font">
                   Welcome to my page! Nice to meet you.
                 </h1>
               </Col>

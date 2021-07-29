@@ -48,7 +48,7 @@ const AboutInfo = () => {
                 living in Philadelphia, PA. I have 1 year experience building
                 20+ projects and gained great skills in{" "}
                 <span className="about-info">
-                  HTML5, CSS3, JAVASCRIPT, REACT.JS, Node.JS, BOOTSTRAP,{" "}
+                  HTML5, CSS3, JAVASCRIPT, REACT.JS, NODE.JS, BOOTSTRAP,{" "}
                 </span>{" "}
                 and more! I have a serious passion for coding and bringing ideas
                 to life. If you're looking for a{" "}

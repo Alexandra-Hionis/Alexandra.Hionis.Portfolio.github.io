@@ -1,5 +1,6 @@
 .services {
   color: #252d3f;
-  margin-top: -14rem;
-  padding-bottom: 1rem;
+}
+.services-title {
+  margin-top: 5%;
 }
