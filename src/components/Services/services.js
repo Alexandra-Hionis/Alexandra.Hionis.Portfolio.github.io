@@ -7,32 +7,49 @@ function Services() {
     <Container>
       <ServicesTitle />
       <div className="services shadow rounded">
-        <p>
-          d;akjdbs;ks;kdfb;s jbf;skjbfsajd fb;sakdjfbsa;kdjfb;
-          askdjfba;skdjfb;skdjbf;skjdbf; skjdfb;skjdfb skdjfb;skjdfbs;kdjfb
-          askdh ashd apoquwepoque sgfpsog pofupshfosidhgo haips osidhf
-          oishfdoshfqp hoahifoai oahf oaihfoasi oafh aoh oafh d;akjdbs;ks;kdfb;s
-          jbf;skjbfsajd fb;sakdjfbsa;kdjfb; askdjfba;skdjfb;skdjbf;skjdbf;
-          skjdfb;skjdfb skdjfb;skjdfbs;kdjfb askdh ashd apoquwepoque sgfpsog
-          pofupshfosidhgo haips osidhf oishfdoshfqp hoahifoai oahf oaihfoasi
-          oafh aoh oafh d;akjdbs;ks;kdfb;s jbf;skjbfsajd fb;sakdjfbsa;kdjfb;
-          askdjfba;skdjfb;skdjbf;skjdbf; skjdfb;skjdfb skdjfb;skjdfbs;kdjfb
-          askdh ashd apoquwepoque sgfpsog pofupshfosidhgo haips osidhf
-          oishfdoshfqp hoahifoai oahf oaihfoasi oafh aoh oafh d;akjdbs;ks;kdfb;s
-          jbf;skjbfsajd fb;sakdjfbsa;kdjfb; askdjfba;skdjfb;skdjbf;skjdbf;
-          skjdfb;skjdfb skdjfb;skjdfbs;kdjfb askdh ashd apoquwepoque sgfpsog
-          pofupshfosidhgo haips osidhf oishfdoshfqp hoahifoai oahf oaihfoasi
-          oafh aoh oafh d;akjdbs;ks;kdfb;s jbf;skjbfsajd fb;sakdjfbsa;kdjfb;
-          askdjfba;skdjfb;skdjbf;skjdbf; skjdfb;skjdfb skdjfb;skjdfbs;kdjfb
-          askdh ashd apoquwepoque sgfpsog pofupshfosidhgo haips osidhf
-          oishfdoshfqp hoahifoai oahf oaihfoasi oafh aoh oafh
-        </p>
-        <p>
-          {" "}
+        {/* <p>
           Now I can confidently say I know HTML, CSS, a decent amount of
           Javascript, React.js, Node.js, Git, Version Control, MySQL, MongoDB,
           Express and more
-        </p>
+        </p> */}
+        <Row>
+          <Col md={4}>
+            {" "}
+            <img
+              alt="icon"
+              src={process.env.PUBLIC_URL + "/images/design.png"}
+              to="/services"
+              width="100"
+              height="100"
+              //   className="d-inline-block
+              // align-top"
+            />
+          </Col>
+          <Col md={4}>
+            {" "}
+            <img
+              alt="icon"
+              src={process.env.PUBLIC_URL + "/images/developer.png"}
+              to="/services"
+              width="100"
+              height="100"
+              //   className="d-inline-block
+              // align-top"
+            />
+          </Col>
+          <Col md={4}>
+            {" "}
+            <img
+              alt="icon"
+              src={process.env.PUBLIC_URL + "/images/responsive.png"}
+              to="/services"
+              width="100"
+              height="100"
+              //   className="d-inline-block
+              // align-top"
+            />
+          </Col>
+        </Row>
       </div>
     </Container>
   );

@@ -31,15 +31,9 @@ const ServicesTitle = () => {
         <motion.div animate={animation}>
           <Row>
             <Col md={12}>
-              <h1 className="title-font services-title">Need a Website?</h1>
-              <p>
-                I build and code beautifully simple things, and I love what I
-                do.
-              </p>
-              <h5>
-                I can build you a simple and elegant website for you or your
-                business!
-              </h5>
+              <h1 className="services-title">Services</h1>
+              <h1 className="sub-title">Need a website?</h1>
+              <p>I build and code websites for you or your small business!</p>
             </Col>
           </Row>
         </motion.div>
