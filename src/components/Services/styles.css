@@ -85,29 +85,19 @@
 }
 
 .custom-btn {
-  background-color: #f35959;
+  background-color: #252e3f;
 }
 .custom-btn:hover {
-  background-color: #f35959;
-}
-.custom-btn:focus {
-  outline: none;
-  box-shadow: none;
+  background-color: #252e3f;
 }
 .modal-body {
   font-family: "Montserrat", sans-serif;
 }
 
-.modal-header {
+.modal-title {
   font-family: "Roboto", sans-serif;
-  background-color: #252e3f;
-  color: white;
 }
 
 #languages {
   margin-top: 25px;
-}
-
-.modal-footer {
-  background-color: #252e3f;
 }
