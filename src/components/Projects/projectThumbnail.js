@@ -3,7 +3,8 @@ import { useEffect } from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useAnimation } from "framer-motion";
-import { Row, Col, Container } from "react-bootstrap";
+import { Row, Col, OverlayTrigger, Tooltip } from "react-bootstrap";
+
 import "./styles.css";
 
 function ProjectThumbnail() {
@@ -21,18 +22,31 @@ function ProjectThumbnail() {
     }
   }, [inView]);
 
+  const renderTooltip = (props) => (
+    <Tooltip id="button-tooltip" {...props}>
+      Scroll down
+    </Tooltip>
+  );
+
   return (
     <div ref={ref}>
       <motion.div animate={animation}>
         <Row>
           <Col ms={6}>
-            <div className="project-image-container">
-              <img
-                alt="logo"
-                src={process.env.PUBLIC_URL + "/images/gbkt.png"}
-                className="project-thumbnail"
-              />
-            </div>
+            <OverlayTrigger
+              placement="right"
+              delay={{ show: 250, hide: 400 }}
+              overlay={renderTooltip}
+            >
+              <div className="project-image-container">
+                <img
+                  variant="success"
+                  alt="logo"
+                  src={process.env.PUBLIC_URL + "/images/gbkt.png"}
+                  className="project-thumbnail"
+                />
+              </div>
+            </OverlayTrigger>
           </Col>
         </Row>
       </motion.div>
