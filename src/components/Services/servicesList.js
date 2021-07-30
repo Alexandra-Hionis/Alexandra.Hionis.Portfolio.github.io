@@ -45,6 +45,7 @@ const ServicesIcon = () => {
                   src={process.env.PUBLIC_URL + "/images/design.png"}
                   width="100"
                   height="100"
+                  className="services-icon"
                 />
                 <Col>
                   <h3 className="list list-title">Design</h3>
@@ -57,21 +58,22 @@ const ServicesIcon = () => {
                   </p>
                 </Col>
                 <Col>
-                  <p className="list">Things I enjoy designing:</p>
+                  <p className="list colored-font">Things I enjoy designing:</p>
                   <p className="list">UX, UI, Websites</p>
                 </Col>
                 <Col>
-                  <p className="list">Design Aids:</p>
+                  <p className="list colored-font">Design Aids:</p>
                   <p className="list">HTML, CSS, JavaScript</p>
                 </Col>
               </Col>
-              <Col md={4}>
+              <Col md={4} className="border-left">
                 {" "}
                 <img
                   alt="icon"
-                  src={process.env.PUBLIC_URL + "/images/compass.png"}
+                  src={process.env.PUBLIC_URL + "/images/developer.png"}
                   width="100"
                   height="100"
+                  className="services-icon"
                 />
                 <Col>
                   <h3 className="list list-title">Front-End Developer</h3>
@@ -84,21 +86,22 @@ const ServicesIcon = () => {
                   </p>
                 </Col>
                 <Col>
-                  <p className="list">Languages I know:</p>
+                  <p className="list colored-font">Languages I know:</p>
                   <p className="list">HTML, CSS, JavaScript</p>
                 </Col>
                 <Col>
-                  <p className="list">Dev Tools:</p>
+                  <p className="list colored-font">Dev Tools:</p>
                   <p className="list">HTML, CSS, JavaScript</p>
                 </Col>
               </Col>{" "}
-              <Col md={4}>
+              <Col md={4} className="border-left">
                 {" "}
                 <img
                   alt="icon"
                   src={process.env.PUBLIC_URL + "/images/experience.png"}
                   width="100"
                   height="100"
+                  className="services-icon"
                 />
                 <Col>
                   <h3 className="list list-title">Experience</h3>
@@ -111,11 +114,11 @@ const ServicesIcon = () => {
                   </p>
                 </Col>
                 <Col>
-                  <p className="list">Experiences I draw from:</p>
+                  <p className="list colored-font">Experiences I draw from:</p>
                   <p className="list">Inspiring sites, building projects</p>
                 </Col>
                 <Col>
-                  <p className="list">Experience:</p>
+                  <p className="list colored-font">Experience:</p>
                   <p className="list">HTML, CSS, JavaScript</p>
                 </Col>
               </Col>

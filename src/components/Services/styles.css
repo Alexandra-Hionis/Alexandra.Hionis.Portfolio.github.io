@@ -24,7 +24,7 @@
 }
 @media (max-width: 767px) {
   .border-left {
-    border: 0px solid !important;
+    border-left: white 0px solid !important;
   }
 }
 
@@ -42,4 +42,12 @@
 }
 .shadow {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.colored-font {
+  color: #f35959;
+}
+
+.services-icon {
+  margin-top: 10px;
 }
