@@ -27,6 +27,23 @@ const AboutTitle = () => {
   }, [inView]);
   return (
     <div id="about">
+      <Row>
+        <Col md={12}>
+          <div className="mobile-view">
+            <p>
+              For the best experience, turn your mobile device's browser
+              horizontal{" "}
+              <img
+                alt="logo"
+                src={process.env.PUBLIC_URL + "/images/arrw.png"}
+                width="15em"
+                height="15em"
+                marginLeft="3px"
+              />
+            </p>
+          </div>
+        </Col>
+      </Row>
       <Container>
         <div ref={ref}>
           <motion.div animate={animation}>

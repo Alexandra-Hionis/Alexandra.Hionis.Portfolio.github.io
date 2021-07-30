@@ -26,3 +26,9 @@
 .about-info {
   color: #f35959;
 }
+
+.mobile-view {
+  background-color: #252d3f;
+  color: white;
+  font-size: 0.5em;
+}
