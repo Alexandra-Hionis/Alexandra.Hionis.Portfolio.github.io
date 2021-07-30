@@ -10,20 +10,21 @@ import { useAnimation } from "framer-motion";
 // import { gsap } from "gsap";
 
 const AboutInfo = () => {
-  // inView results in a boolean that specify if an element is in view. Ture means in view. The ref we assign to the element we want to target.
   const { ref, inView } = useInView();
   const animation = useAnimation();
-  // here we combine the 3 hooks together useAnimation, useEffect and useInView
-  //We can tell React that our component needs to do something after it renders. the function inside the useEffect hook is called everytime the component renders. Or when the data in our component changes. So when <Col lg={6} ref={ref}> is in view, sets to true. If false, sets it to false
   useEffect(() => {
     console.log("use effect hook, inView = ", inView);
     //   if parent in view, start animation
     if (inView) {
-      animation.start({ x: 0, transition: { duration: 1 } });
+      animation.start({
+        opacity: 1,
+        scale: 1,
+        transition: { duration: 0.5 },
+      });
     }
     // if not in view, start another animation. Completely off screen
     if (!inView) {
-      animation.start({ x: "100vw" });
+      animation.start({ opacity: 0, scale: 0 });
     }
   }, [inView]);
 

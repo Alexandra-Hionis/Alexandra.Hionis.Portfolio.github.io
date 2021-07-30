@@ -9,6 +9,7 @@
   font-family: "Montserrat", sans-serif;
   font-size: 3em;
   text-transform: uppercase;
+  /* margin-top: 12%; */
 }
 
 .sub-title {
@@ -72,4 +73,13 @@
 #collaborate-link {
   color: #f35959;
   text-decoration: none;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+.btn:hover {
+  color: #f35959;
+  cursor: pointer;
 }

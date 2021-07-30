@@ -17,7 +17,7 @@ const AboutTitle = () => {
       animation.start({
         opacity: 1,
         scale: 1,
-        transition: { duration: 0.5 },
+        transition: { duration: 2 },
       });
     }
     // if not in view, start another animation. Completely off screen
@@ -45,19 +45,19 @@ const AboutTitle = () => {
           </div>
         </Col>
       </Row>
+
       <Container>
-        <div ref={ref}>
-          <motion.div animate={animation}>
-            <Row>
-              <Col md={12}>
-                <h1 className="title-font">
-                  Welcome to my page! Nice to meet you.
-                </h1>
-              </Col>
-            </Row>
-          </motion.div>
-        </div>
+        <motion.div animate={animation}>
+          <Row>
+            <Col md={12}>
+              <h1 className="title-font">
+                Welcome to my page! Nice to meet you.
+              </h1>
+            </Col>
+          </Row>
+        </motion.div>
       </Container>
+      <div ref={ref}></div>
     </div>
   );
 };

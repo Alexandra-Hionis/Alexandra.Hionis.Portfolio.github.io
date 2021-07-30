@@ -29,24 +29,25 @@ const ServicesTitle = () => {
   return (
     <div id="services">
       <Container>
-        <motion.div animate={animation}>
-          <Row>
-            <Col md={12}>
-              <h1 className="services-title">Services</h1>
-              <h1 className="sub-title">
-                I will build websites for you or your small business! Check out
-                my skills below.
-              </h1>
-              <p className="interested">
-                Interested?{" "}
-                <a href="#contact" id="collaborate-link">
-                  Let's colaborate!
-                </a>
-              </p>
-            </Col>
-          </Row>
-        </motion.div>
-        <div ref={ref}></div>
+        <div ref={ref}>
+          <motion.div animate={animation}>
+            <Row>
+              <Col md={12}>
+                <h1 className="services-title">Services</h1>
+                <h1 className="sub-title">
+                  I will build websites for you or your small business! Check
+                  out my skills below.
+                </h1>
+                <p className="interested">
+                  Interested?{" "}
+                  <a href="#contact" id="collaborate-link">
+                    Let's colaborate!
+                  </a>
+                </p>
+              </Col>
+            </Row>
+          </motion.div>
+        </div>
       </Container>
     </div>
   );

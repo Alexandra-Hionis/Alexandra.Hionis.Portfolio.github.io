@@ -4,16 +4,20 @@ import "./styles.css";
 
 function Thumbnail(props) {
   return (
-    <div className="project">
-      <Link to="">
-        <div className="project-image">
-          <img src="" alt="Project Image" />
-        </div>
-        <div className="project-title">""</div>
-        <div className="project-category">""</div>
-      </Link>
+    <div className="project-image-container">
+      <img className="project-image" alt="Project Image" />
     </div>
   );
 }
 
 export default Thumbnail;
+
+// div.project-image-container {
+//   width: 100%;
+//   max-height: 300px;
+//   overflow-y: scroll;
+// }
+
+// img.project-image {
+//   width: 100%;
+// }

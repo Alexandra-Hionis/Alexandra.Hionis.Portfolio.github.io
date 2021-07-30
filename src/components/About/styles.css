@@ -34,7 +34,7 @@
   font-size: 0.5em;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 700px) {
   .mobile-view {
     display: none;
   }

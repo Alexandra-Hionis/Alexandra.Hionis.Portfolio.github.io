@@ -3,11 +3,10 @@ import "./styles.css";
 import { Row, Col, Container } from "react-bootstrap";
 import { useEffect } from "react";
 import { motion } from "framer-motion";
-
 import { useInView } from "react-intersection-observer";
 import { useAnimation } from "framer-motion";
 import ListGroup from "react-bootstrap/ListGroup";
-
+import LaunchModal from "./modal";
 const ServicesIcon = () => {
   const { ref, inView } = useInView();
   const animation = useAnimation();
@@ -94,7 +93,9 @@ const ServicesIcon = () => {
                   </p>
                 </Col>
                 <Col>
-                  <p className="list colored-font">Languages I know:</p>
+                  <p className="list colored-font">
+                    Languages I know: <LaunchModal />{" "}
+                  </p>
                   <p className="list">HTML, CSS, JavaScript</p>
                 </Col>
                 <Col>

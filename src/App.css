@@ -5,26 +5,20 @@
   /* color: seashell; */
 }
 body {
-  padding-top: 75px;
+  padding-top: 74px;
 
   /* width: 100% !important; */
-}
-
-/* .App {
-  text-align: center;
- 
-  font-family: "Montserrat", sans-serif;
-} */
-.background-color {
-  background-color: white;
-  /* background-color: #252d3f; */
-  /* background-color: #2d264b; */
-  /* background-color: #46248f;*/
 }
 
 .App {
   text-align: center;
   /* font-family: "Montserrat", sans-serif; */
+}
+.background-color {
+  background-color: white;
+  /* background-color: #252d3f; */
+  /* background-color: #2d264b; */
+  /* background-color: #46248f;*/
 }
 
 /* Styles components share */
