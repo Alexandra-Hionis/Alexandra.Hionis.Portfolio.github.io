@@ -26,7 +26,6 @@ const AboutInfo = () => {
       animation.start({ x: "100vw" });
     }
   }, [inView]);
-  //   useEffect hook accepts another parameter of type array and in that array you can specify what data can be monitored
 
   return (
     <Container>
@@ -35,16 +34,10 @@ const AboutInfo = () => {
           <Col lg={2}></Col>
           <Col lg={8}>
             {/* we want to puth parent div left off screen and let it slide in */}
-            <motion.div
-              className="info-div"
-              // inside prop we give hook animation
-              // initial={{ x: "100vw" }}
-              animate={animation}
-              // transition={{ type: "slide", duration: 2, bounce: 0.3 }}
-            >
+            <motion.div className="info-div" animate={animation}>
               <p id="about-me">
                 I am a{" "}
-                <span className="about-info">Front End Web Developer</span>{" "}
+                <span className="about-info">Front-End Web Developer</span>{" "}
                 living in Philadelphia, PA. I have 1 year experience building
                 20+ projects and gained great skills in{" "}
                 <span className="about-info">

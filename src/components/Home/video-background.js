@@ -33,7 +33,7 @@ const VideoCarousel = () => {
           {/* Set overflowY to hidden so scroll bar in div disappears  */}
           <Carousel.Caption style={{ overflowY: "hidden" }}>
             <h1 className="header">Hi, I'm Alexandra Hionis </h1>
-            <h1 className="header2">Front End Web Developer</h1>
+            <h1 className="header2">Front-End Web Developer</h1>
             <Typewriter />
           </Carousel.Caption>
         </Carousel.Item>
