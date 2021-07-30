@@ -25,6 +25,7 @@ const ServicesTitle = () => {
       animation.start({ opacity: 0, scale: 0 });
     }
   }, [inView]);
+
   return (
     <div id="services">
       <Container>
@@ -36,6 +37,12 @@ const ServicesTitle = () => {
                 I will build websites for you or your small business! Check out
                 my skills below.
               </h1>
+              <p className="interested">
+                Interested?{" "}
+                <a href="#contact" id="collaborate-link">
+                  Let's colaborate!
+                </a>
+              </p>
             </Col>
           </Row>
         </motion.div>
