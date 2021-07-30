@@ -5,6 +5,7 @@
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   /* clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%); */
   color: seashell;
+  margin-top: -1px;
 }
 
 #my-photo {
@@ -31,4 +32,10 @@
   background-color: #252d3f;
   color: white;
   font-size: 0.5em;
+}
+
+@media screen and (min-width: 1024px) {
+  .mobile-view {
+    display: none;
+  }
 }

@@ -120,6 +120,11 @@ const ServicesIcon = () => {
                 <Col>
                   <p className="list colored-font">Experience:</p>
                   <p className="list">HTML, CSS, JavaScript</p>
+                  {/* <p>
+          Now I can confidently say I know HTML, CSS, 
+          Javascript, React.js, Node.js, Git, Version Control, MySQL, MongoDB,
+          Express and more
+        </p> */}
                 </Col>
               </Col>
             </Row>

@@ -25,6 +25,7 @@ const AboutTitle = () => {
       animation.start({ opacity: 0, scale: 0 });
     }
   }, [inView]);
+
   return (
     <div id="about">
       <Row>
@@ -32,7 +33,7 @@ const AboutTitle = () => {
           <div className="mobile-view">
             <p>
               For the best experience, turn your mobile device's browser
-              horizontal{" "}
+              horizontal
               <img
                 alt="logo"
                 src={process.env.PUBLIC_URL + "/images/arrw.png"}
