@@ -79,7 +79,35 @@
   outline: none;
   box-shadow: none;
 }
-.btn:hover {
+.btn-quest:hover {
   color: #f35959;
   cursor: pointer;
+}
+
+.custom-btn {
+  background-color: #f35959;
+}
+.custom-btn:hover {
+  background-color: #f35959;
+}
+.custom-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+.modal-body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.modal-header {
+  font-family: "Roboto", sans-serif;
+  background-color: #252e3f;
+  color: white;
+}
+
+#languages {
+  margin-top: 25px;
+}
+
+.modal-footer {
+  background-color: #252e3f;
 }
