@@ -8,6 +8,7 @@ import Home from "./components/Home/video-background";
 
 import About from "./components/About/about";
 import Services from "./components/Services/services";
+import Projects from "./components/Projects/projects";
 
 function Wrapper(props) {
   return (
@@ -29,6 +30,7 @@ function App() {
 
               <About />
               <Services />
+              <Projects />
             </Wrapper>
           </Switch>
         </div>

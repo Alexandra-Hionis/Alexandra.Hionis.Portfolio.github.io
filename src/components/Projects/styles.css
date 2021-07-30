@@ -1,0 +1,43 @@
+.projects {
+  padding-bottom: 20%;
+}
+.project-thumbnail {
+  object-fit: cover;
+
+  width: 100%;
+}
+
+.project-image-container {
+  width: 100%;
+  display: block;
+  max-height: 278px;
+  overflow-y: scroll;
+  background: white;
+
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border: solid 2px black;
+}
+.project-image-container:hover {
+  -webkit-box-shadow: 2px 2px 8px rgba(50, 50, 50, 0.5);
+  box-shadow: 2px 2px 8px rgba(50, 50, 50, 0.5);
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.projects-title {
+  margin-top: 20%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+#projects-sub {
+  margin-bottom: 10%;
+}
+
+.project-name {
+  font-family: "Montserrat", sans-serif;
+}

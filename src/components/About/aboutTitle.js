@@ -45,19 +45,19 @@ const AboutTitle = () => {
           </div>
         </Col>
       </Row>
-
-      <Container>
-        <motion.div animate={animation}>
-          <Row>
-            <Col md={12}>
-              <h1 className="title-font">
-                Welcome to my page! Nice to meet you.
-              </h1>
-            </Col>
-          </Row>
-        </motion.div>
-      </Container>
-      <div ref={ref}></div>
+      <div ref={ref}>
+        <Container>
+          <motion.div animate={animation}>
+            <Row>
+              <Col md={12}>
+                <h1 className="title-font">
+                  Welcome to my page! Nice to meet you.
+                </h1>
+              </Col>
+            </Row>
+          </motion.div>
+        </Container>
+      </div>
     </div>
   );
 };

@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useAnimation } from "framer-motion";
 
-const ServicesTitle = () => {
+const ProjectsTitle = () => {
   const { ref, inView } = useInView();
   const animation = useAnimation();
   useEffect(() => {
@@ -27,24 +27,18 @@ const ServicesTitle = () => {
   }, [inView]);
 
   return (
-    <div id="services">
+    <div id="about">
       <Container>
         <div ref={ref}>
           <motion.div animate={animation}>
             <Row>
               <Col md={12}>
-                <h1 className="services-title">Services</h1>
-                <h1 className="sub-title">
-                  I will build websites for you or your small business and
-                  manage it, making sure it is up to date and reliable! ! Check
-                  out my skills below.
+                <h1 className="projects-title">Projects</h1>
+
+                <h1 className="sub-title" id="projects-sub">
+                  {" "}
+                  Check out my work
                 </h1>
-                <p className="interested">
-                  Interested?{" "}
-                  <a href="#contact" id="collaborate-link">
-                    Contact me!
-                  </a>
-                </p>
               </Col>
             </Row>
           </motion.div>
@@ -54,4 +48,4 @@ const ServicesTitle = () => {
   );
 };
 
-export default ServicesTitle;
+export default ProjectsTitle;
