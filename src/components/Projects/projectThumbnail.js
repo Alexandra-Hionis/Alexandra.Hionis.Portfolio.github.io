@@ -34,7 +34,7 @@ function ProjectThumbnail() {
         <Row>
           <Col ms={6}>
             <OverlayTrigger
-              placement="right"
+              placement="top"
               delay={{ show: 250, hide: 400 }}
               overlay={renderTooltip}
             >

@@ -7,18 +7,20 @@ import ProjectName from "./projectName";
 
 function Projects() {
   return (
-    <Container className="projects">
-      <ProjectsTitle />
-      <Row>
-        <Col md={6}>
-          <ProjectThumbnail />
-        </Col>
-        <Col md={6}>
-          <ProjectName />
-          <ProjectDescription />
-        </Col>
-      </Row>
-    </Container>
+    <div className="projects">
+      <Container>
+        <ProjectsTitle />
+        <Row>
+          <Col md={6}>
+            <ProjectThumbnail />
+          </Col>
+          <Col md={6}>
+            <ProjectName />
+            <ProjectDescription />
+          </Col>
+        </Row>
+      </Container>
+    </div>
   );
 }
 
