@@ -28,15 +28,24 @@ function LaunchModal() {
         </Modal.Header>
         <Modal.Body className="modal-body">
           <p>Let's break it down:</p>
-          HTML, CSS, and JavaScript are the languages used for Front End
+          HTML, CSS, and JavaScript are the languages used for front end
           development. The structure, design, behavior, and content of
           everything seen on browser screens when websites, web applications, or
-          mobile apps are opened up, is implemented by front End developers.
-          <h6 id="languages">1) HTML is the data </h6>
-          <h6>2) CSS is the styling of the data </h6>
+          mobile apps are opened up, is implemented by front end developers.
+          <h6 id="languages">
+            1) <span className="colored-font">HTML</span> is the structure: bare
+            information such as text, titles, links and so on.{" "}
+          </h6>
           <h6>
-            3) Javascript is the function and animation that brings life to the
-            website{" "}
+            2) <span className="colored-font">CSS</span> is used to enhance the
+            style: add color to your font, change the size of your image, or
+            even add margins to a website.{" "}
+          </h6>
+          <h6>
+            3) <span className="colored-font">JavaScript</span> is the
+            functionality and animation that brings life to the website: text
+            that fades in, or calculations that go on behind the scenes. It even
+            powers pop up modals like the one you're reading now.{" "}
           </h6>
         </Modal.Body>
         <Modal.Footer>

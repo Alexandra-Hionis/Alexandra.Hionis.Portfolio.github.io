@@ -1,5 +1,5 @@
 .projects {
-  background-color: #eef4f6;
+  /* background-color: #eef4f6; */
   margin-top: 35px;
 
   /* padding-bottom: 400px;
@@ -45,6 +45,7 @@
 .project-name {
   font-family: "Montserrat", sans-serif;
   overflow-y: hidden;
+  font-size: 2em;
 }
 
 .tech-used {

@@ -97,7 +97,7 @@ const ServicesIcon = () => {
                   <p className="list colored-font">
                     Languages I know: <LaunchModal />{" "}
                   </p>
-                  <p className="list">HTML, CSS, JavaScript, React</p>
+                  <p className="list">HTML, CSS, JavaScript, React.js</p>
                 </Col>
                 <Col>
                   <p className="list colored-font">Dev Tools:</p>

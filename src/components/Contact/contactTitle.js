@@ -3,11 +3,11 @@ import "./styles.css";
 import { Row, Col, Container } from "react-bootstrap";
 import { useEffect } from "react";
 import { motion } from "framer-motion";
+
 import { useInView } from "react-intersection-observer";
 import { useAnimation } from "framer-motion";
-import { projects } from "./projectData";
 
-const ProjectsTitle = () => {
+const ServicesTitle = () => {
   const { ref, inView } = useInView();
   const animation = useAnimation();
   useEffect(() => {
@@ -28,16 +28,22 @@ const ProjectsTitle = () => {
 
   return (
     <Container>
-      <div ref={ref} id="projects">
+      <div ref={ref} className="contact-div">
         <motion.div animate={animation}>
           <Row>
             <Col md={12}>
-              <h1 className="component-title">Projects</h1>
-
-              <h1 className="sub-title" id="projects-sub">
-                {" "}
-                Check out my work
+              <h1 className="component-title">Services</h1>
+              <h1 className="sub-title">
+                I will build websites for you or your small business and manage
+                it, making sure it is up to date and reliable! ! Check out my
+                skills below.
               </h1>
+              <p className="interested">
+                Interested?{" "}
+                <a href="#contact" id="collaborate-link">
+                  Contact me!
+                </a>
+              </p>
             </Col>
           </Row>
         </motion.div>
@@ -46,4 +52,4 @@ const ProjectsTitle = () => {
   );
 };
 
-export default ProjectsTitle;
+export default ServicesTitle;

@@ -9,6 +9,7 @@ import Home from "./components/Home/video-background";
 import About from "./components/About/about";
 import Services from "./components/Services/services";
 import Projects from "./components/Projects/projects";
+import Contact from "./components/Contact/contact";
 
 function Wrapper(props) {
   return (
@@ -31,6 +32,7 @@ function App() {
               <About />
               <Services />
               <Projects />
+              <Contact />
             </Wrapper>
           </Switch>
         </div>

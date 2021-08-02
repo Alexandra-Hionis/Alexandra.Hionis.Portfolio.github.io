@@ -1,15 +1,16 @@
 import React from "react";
 
-import AboutTitle from "./aboutTitle";
-import AboutInfo from "./aboutInfo";
+import ContactTitle from "./contactTitle";
+import ContactForm from "./contactForm";
+
 // import AboutImage from "./image";
 
 const About = () => {
   return (
-    <div className="about-div overlap-1">
+    <div className="contact-div">
       {/* <AboutImage /> */}
-      <AboutTitle />
-      <AboutInfo />
+      <ContactTitle />
+      <ContactForm />
     </div>
   );
 };
