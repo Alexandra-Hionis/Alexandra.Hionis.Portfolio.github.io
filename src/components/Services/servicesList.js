@@ -17,7 +17,7 @@ const ServicesIcon = () => {
     if (inView) {
       animation.start({ x: 0, transition: { duration: 1 } });
     }
-    // if not in view, start another animation. Completely off screen
+
     // Slide in from right
     if (!inView) {
       animation.start({ x: "100vw" });

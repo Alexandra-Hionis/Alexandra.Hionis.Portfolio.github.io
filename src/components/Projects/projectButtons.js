@@ -1,12 +1,12 @@
 import React from "react";
 import "./styles.css";
-import { Row, Col, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { useEffect } from "react";
 import { motion } from "framer-motion";
 import Button from "react-bootstrap/Button";
-
 import { useInView } from "react-intersection-observer";
 import { useAnimation } from "framer-motion";
+import { projects } from "./projectData";
 
 const ProjectButtons = () => {
   const { ref, inView } = useInView();
@@ -28,16 +28,16 @@ const ProjectButtons = () => {
   }, [inView]);
 
   return (
-    <div id="about">
-      <Container>
-        <div ref={ref}>
+    <Container>
+      <div ref={ref}>
+        {projects.map((project) => (
           <motion.div animate={animation}>
             <div id="btn-space">
               <Button
                 className="btn-sm"
                 style={{ margin: "5px" }}
                 variant="dark"
-                href="https://github.com/Alexandra-Hionis/Out-Of-Office"
+                href={project.link1}
               >
                 GitHub
               </Button>
@@ -46,15 +46,15 @@ const ProjectButtons = () => {
                 className="btn-sm"
                 style={{ margin: "5px" }}
                 variant="dark"
-                href="https://out-of-office1.herokuapp.com/"
+                href={project.link2}
               >
                 Visit Site
               </Button>
             </div>
           </motion.div>
-        </div>
-      </Container>
-    </div>
+        ))}
+      </div>
+    </Container>
   );
 };
 

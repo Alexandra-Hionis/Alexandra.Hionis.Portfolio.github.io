@@ -1,34 +1,38 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "College Prep",
+    subtitle: "React.js, Node.js, ReactBootstrap",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "A personal business website for a client specializing in college prep and professional development. Built via React.js with ReactBootstrap framework.",
+    image: "./images/college-prep.png",
+    link1: "https://github.com/Alexandra-Hionis/College-Prep",
+    link2: "",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Giveback Keeptrack",
+    subtitle: "React.js, Node.js, ReactBootstrap",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reedbarger.com",
+      "Users can keep track of their charitable donations throughout the year, including details such as the category, whether the donation is tax deductible, employer matched, or provides receipts/documentation.",
+    image: "./images/gbkt.png",
+    link1: "https://github.com/suzygiv/GiveBack-KeepTrack",
+    link2: "https://giveback-keeptrack.herokuapp.com/",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Tip Calculator",
+    subtitle: "HTML5, CSS3, JavaScript",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://jsbootcamp.com",
+      "This tip calculator app allows users to quickly calculate the correct tip depending on the percentage they select. There is an option to input a custom tip, as well as divide the bill total and the tip total by however many people are in the party",
+    image: "./images/tip-calculator.png",
+    link1: "https://github.com/Alexandra-Hionis/Tip-Calculator",
+    link2: "https://alexandra-hionis.github.io/Tip-Calculator/",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Honeygo Pediatrics LLC",
+    subtitle: "React.js, Node.js",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://pythonbootcamp.com",
+      "Business website for HoneyGo pediactrics located in Fallston, MD.",
+    image: "./images/comingsoon.png",
+    link: "",
+    ink2: "",
   },
 ];

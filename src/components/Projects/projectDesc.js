@@ -5,6 +5,7 @@ import { useInView } from "react-intersection-observer";
 import { useAnimation } from "framer-motion";
 import { Row, Col, Container } from "react-bootstrap";
 import "./styles.css";
+import { projects } from "./projectData";
 
 function ProjectThumbnail() {
   const { ref, inView } = useInView();
@@ -23,13 +24,15 @@ function ProjectThumbnail() {
 
   return (
     <div ref={ref}>
-      <motion.div animate={animation}>
-        <Row>
-          <Col md={6}>
-            <p className="sub-title">Description</p>
-          </Col>
-        </Row>
-      </motion.div>
+      {projects.map((project) => (
+        <motion.div animate={animation}>
+          <Row>
+            <Col md={12}>
+              <p className="sub-title">{project.description}</p>
+            </Col>
+          </Row>
+        </motion.div>
+      ))}
     </div>
   );
 }

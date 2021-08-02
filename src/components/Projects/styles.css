@@ -1,8 +1,8 @@
 .projects {
   padding-bottom: 20%;
+  /* padding-top: 40%; */
   background-color: #eef4f6;
   /* clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%); */
-  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
 }
 .project-thumbnail {
   max-width: 100%;
@@ -12,6 +12,7 @@
   min-width: 100%;
   display: block;
   max-height: 278px;
+
   overflow-y: scroll;
   background: white;
   border: solid 2px black;
@@ -67,7 +68,6 @@
 }
 
 .projects-title {
-  margin-top: 20%;
   font-family: "Montserrat", sans-serif;
   font-size: 3em;
   text-transform: uppercase;

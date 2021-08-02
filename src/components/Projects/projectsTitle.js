@@ -3,9 +3,9 @@ import "./styles.css";
 import { Row, Col, Container } from "react-bootstrap";
 import { useEffect } from "react";
 import { motion } from "framer-motion";
-
 import { useInView } from "react-intersection-observer";
 import { useAnimation } from "framer-motion";
+import { projects } from "./projectData";
 
 const ProjectsTitle = () => {
   const { ref, inView } = useInView();
@@ -29,7 +29,7 @@ const ProjectsTitle = () => {
   return (
     <div id="about">
       <Container>
-        <div ref={ref}>
+        <div ref={ref} id="projects">
           <motion.div animate={animation}>
             <Row>
               <Col md={12}>

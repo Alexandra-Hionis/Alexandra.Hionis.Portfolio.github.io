@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useAnimation } from "framer-motion";
 import { Row, Col, OverlayTrigger, Tooltip } from "react-bootstrap";
-
+import { projects } from "./projectData";
 import "./styles.css";
 
 function ProjectThumbnail() {
@@ -39,8 +39,8 @@ function ProjectThumbnail() {
           <div className="project-image-container">
             <img
               variant="success"
-              alt="logo"
-              src={process.env.PUBLIC_URL + "/images/gbkt.png"}
+              alt="project thumbnail"
+              src={projects.image}
               className="project-thumbnail d-block w-100"
             />
           </div>

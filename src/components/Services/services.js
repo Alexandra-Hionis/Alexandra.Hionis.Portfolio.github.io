@@ -5,11 +5,13 @@ import ServicesTitle from "./servicesTitle";
 import ServicesList from "./servicesList";
 function Services() {
   return (
-    <Container>
-      <ServicesTitle />
+    <div className="services">
+      <Container>
+        <ServicesTitle />
 
-      <ServicesList />
-    </Container>
+        <ServicesList />
+      </Container>
+    </div>
   );
 }
 

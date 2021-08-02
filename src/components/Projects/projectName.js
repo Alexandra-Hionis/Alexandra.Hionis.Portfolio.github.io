@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useAnimation } from "framer-motion";
 import "./styles.css";
+import { projects } from "./projectData";
 
 function ProjectName() {
   const { ref, inView } = useInView();
@@ -26,12 +27,14 @@ function ProjectName() {
 
   return (
     <div ref={ref}>
-      <motion.div animate={animation}>
-        <div className="">
-          <h1 className="project-name">Project Name</h1>
-          <p className="tech-used">React.js / Node.js / Passport.js</p>
-        </div>
-      </motion.div>
+      {projects.map((project) => (
+        <motion.div animate={animation}>
+          <div className="">
+            <h1 className="project-name">{project.title}</h1>
+            <p className="tech-used">{project.subtitle}</p>
+          </div>
+        </motion.div>
+      ))}
     </div>
   );
 }
