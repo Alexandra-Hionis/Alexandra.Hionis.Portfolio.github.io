@@ -27,24 +27,22 @@ const ProjectsTitle = () => {
   }, [inView]);
 
   return (
-    <div id="about">
-      <Container>
-        <div ref={ref} id="projects">
-          <motion.div animate={animation}>
-            <Row>
-              <Col md={12}>
-                <h1 className="projects-title">Projects</h1>
+    <Container>
+      <div ref={ref} id="projects">
+        <motion.div animate={animation}>
+          <Row>
+            <Col md={12}>
+              <h1 className="projects-title">Projects</h1>
 
-                <h1 className="sub-title" id="projects-sub">
-                  {" "}
-                  Check out my work
-                </h1>
-              </Col>
-            </Row>
-          </motion.div>
-        </div>
-      </Container>
-    </div>
+              <h1 className="sub-title" id="projects-sub">
+                {" "}
+                Check out my work
+              </h1>
+            </Col>
+          </Row>
+        </motion.div>
+      </div>
+    </Container>
   );
 };
 
