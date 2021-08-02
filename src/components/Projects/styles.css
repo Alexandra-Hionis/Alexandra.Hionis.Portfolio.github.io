@@ -1,27 +1,63 @@
 .projects {
   padding-bottom: 20%;
-  background-color: #b9c2c4;
+  background-color: #eef4f6;
   /* clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%); */
   clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
 }
 .project-thumbnail {
-  object-fit: cover;
-
-  width: 100%;
+  max-width: 100%;
 }
 
 .project-image-container {
-  width: 100%;
+  min-width: 100%;
   display: block;
   max-height: 278px;
   overflow-y: scroll;
   background: white;
-
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
   border: solid 2px black;
 }
+
+/* ADD MEDIA QUERIES SO WHEN SCREEN IS AT CERTAIN SIZE, THE HEIGHT WILL CHANGE */
+/* @media screen and (max-width: 780px) {
+  .poject-image-container {
+    max-height: 210px !important;
+  }
+} */
+
+/* // X-Small devices (portrait phones, less than 576px) */
+/* @media only screen and (max-height: 575.98px) {
+  .poject-image-container {
+    max-height: 150px;
+  }
+}
+/* // Small devices (landscape phones, less than 768px) */
+/* @media only screen and (max-height: 767.98px) {
+  .poject-image-container {
+    max-height: 378px;
+  }
+} */
+
+/* // Medium devices (tablets, less than 992px) */
+/* @media only screen and (max-height: 991.98px) {
+  .poject-image-container {
+    max-height: 450px;
+  }
+} */
+
+/* // Large devices (desktops, less than 1200px) */
+/* @media only screen and (max-height: 1199.98px) {
+  .poject-image-container {
+    max-height: 660px;
+  }
+} */
+
+/* // X-Large devices (large desktops, less than 1400px) */
+/* @media only screen and (max-height: 1399.98px) {
+  .poject-image-container {
+    max-height: 870px;
+  }
+} */
+
 .project-image-container:hover {
   -webkit-box-shadow: 2px 2px 8px rgba(50, 50, 50, 0.5);
   box-shadow: 2px 2px 8px rgba(50, 50, 50, 0.5);
@@ -43,4 +79,14 @@
 
 .project-name {
   font-family: "Montserrat", sans-serif;
+  overflow-y: hidden;
+}
+
+.tech-used {
+  font-family: "Montserrat", sans-serif;
+  color: #f35959;
+}
+
+#btn-space {
+  margin: 10px;
 }

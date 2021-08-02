@@ -51,6 +51,7 @@
   font-size: 1.4em;
   margin-top: 10px;
   margin: 5px;
+  overflow-y: hidden;
 }
 
 .list {

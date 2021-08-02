@@ -25,7 +25,7 @@ function ProjectThumbnail() {
     <div ref={ref}>
       <motion.div animate={animation}>
         <Row>
-          <Col ms={6}>
+          <Col md={6}>
             <p className="sub-title">Description</p>
           </Col>
         </Row>

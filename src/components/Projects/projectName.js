@@ -29,6 +29,7 @@ function ProjectName() {
       <motion.div animate={animation}>
         <div className="">
           <h1 className="project-name">Project Name</h1>
+          <p className="tech-used">React.js / Node.js / Passport.js</p>
         </div>
       </motion.div>
     </div>
