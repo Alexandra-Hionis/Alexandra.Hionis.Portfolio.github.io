@@ -53,7 +53,7 @@ function ProjectsRendered() {
         {projects.map((project) => (
           <motion.div animate={animation}>
             <Row>
-              <Col md={6}>
+              <Col lg={6}>
                 <OverlayTrigger
                   placement="top"
                   delay={{ show: 250, hide: 400 }}
@@ -69,7 +69,7 @@ function ProjectsRendered() {
                   </div>
                 </OverlayTrigger>
               </Col>
-              <Col md={6}>
+              <Col lg={6}>
                 <div className="project-description-container">
                   <h1 className="project-name">{project.title}</h1>
                   <p className="tech-used">{project.subtitle}</p>
