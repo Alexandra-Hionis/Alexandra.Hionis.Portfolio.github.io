@@ -15,7 +15,7 @@ function Navigation() {
         <Navbar.Brand href="/">
           <img
             alt="logo"
-            src={process.env.PUBLIC_URL + "/images/logo-ah.png"}
+            src={process.env.PUBLIC_URL + "/images/logo.png"}
             to="/services"
             width="50"
             height="50"
