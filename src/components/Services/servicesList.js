@@ -29,7 +29,7 @@ const ServicesIcon = () => {
       <div ref={ref}>
         <motion.div animate={animation}>
           <div
-            className="shadow "
+            className="shadow"
             style={{
               color: "#252d3f",
               border: "lightgrey solid 0.5px",

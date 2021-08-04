@@ -27,7 +27,7 @@ export const projects = [
     link2: "https://alexandra-hionis.github.io/Tip-Calculator/",
   },
   {
-    title: "Honeygo Pediatrics LLC",
+    title: "Honeygo Pediatrics, LLC",
     subtitle: "React.js, Node.js",
     description:
       "Business website for HoneyGo pediactrics located in Fallston, MD.",

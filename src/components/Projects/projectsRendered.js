@@ -30,26 +30,8 @@ function ProjectsRendered() {
   );
 
   return (
-    // <div ref={ref}>
-    //   <motion.div animate={animation}>
-    //     <OverlayTrigger
-    //       placement="top"
-    //       delay={{ show: 250, hide: 400 }}
-    //       overlay={renderTooltip}
-    //     >
-    //       <div className="project-image-container">
-    //         <img
-    //           variant="success"
-    //           alt="project thumbnail"
-    //           src={projects.image}
-    //           className="project-thumbnail d-block w-100"
-    //         />
-    //       </div>
-    //     </OverlayTrigger>
-    //   </motion.div>
-    // </div>
     <Container>
-      <div ref={ref} className="projects">
+      <div ref={ref} className="">
         {projects.map((project) => (
           <motion.div animate={animation}>
             <Row>
@@ -76,6 +58,7 @@ function ProjectsRendered() {
                   <p className="sub-title">{project.description}</p>
                   <div id="btn-space">
                     <Button
+                      target="_blank"
                       className="btn-sm"
                       style={{ margin: "5px" }}
                       variant="dark"
@@ -85,6 +68,7 @@ function ProjectsRendered() {
                     </Button>
 
                     <Button
+                      target="_blank"
                       className="btn-sm"
                       style={{ margin: "5px" }}
                       variant="dark"

@@ -1,16 +1,16 @@
 import React from "react";
 
 import ContactTitle from "./contactTitle";
-import ContactForm from "./contactForm";
+import ContactInfo from "./contactInfo";
 
 // import AboutImage from "./image";
 
 const About = () => {
   return (
-    <div className="contact-div">
+    <div className="contact-div" id="contact">
       {/* <AboutImage /> */}
       <ContactTitle />
-      <ContactForm />
+      <ContactInfo />
     </div>
   );
 };

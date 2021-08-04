@@ -1,9 +1,6 @@
 .projects {
-  /* background-color: #eef4f6; */
-  margin-top: 35px;
-
-  /* padding-bottom: 400px;
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%); */
+  background-color: #eef4f6;
+  margin-top: 85px;
 }
 
 .project-thumbnail {
@@ -16,7 +13,7 @@
   margin: 29px;
   overflow-y: scroll;
   background: white;
-
+  box-shadow: 10px 5px 5px lightgrey;
   border: solid 2px black;
 }
 

@@ -36,7 +36,7 @@ const ServicesTitle = () => {
                 <h1 className="services-title">Services</h1>
                 <h1 className="sub-title">
                   I will build websites for you or your small business and
-                  manage it, making sure it is up to date and reliable! ! Check
+                  manage it, making sure it is up to date and reliable! Check
                   out my skills below.
                 </h1>
                 <p className="interested">

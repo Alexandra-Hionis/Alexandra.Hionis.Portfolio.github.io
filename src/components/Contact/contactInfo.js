@@ -1,13 +1,15 @@
 import React from "react";
-import "./styles.css";
 import { Row, Col, Container } from "react-bootstrap";
+
 import { useEffect } from "react";
 import { motion } from "framer-motion";
-
+import classes from "./styles.css";
 import { useInView } from "react-intersection-observer";
 import { useAnimation } from "framer-motion";
+// import { TweenMax, Power3 } from "gsap";
+// import { gsap } from "gsap";
 
-const ServicesTitle = () => {
+const AboutInfo = () => {
   const { ref, inView } = useInView();
   const animation = useAnimation();
   useEffect(() => {
@@ -17,7 +19,7 @@ const ServicesTitle = () => {
       animation.start({
         opacity: 1,
         scale: 1,
-        transition: { duration: 2 },
+        transition: { duration: 0.5 },
       });
     }
     // if not in view, start another animation. Completely off screen
@@ -28,21 +30,15 @@ const ServicesTitle = () => {
 
   return (
     <Container>
-      <div ref={ref} className="contact-div">
-        <motion.div animate={animation}>
-          <Row>
-            <Col md={12}>
-              <h1 className="component-title">Contact</h1>
-              <h1 className="sub-title">
-                Have a question or want to work together?
-              </h1>
-              <p className="colored-font"></p>
-            </Col>
-          </Row>
-        </motion.div>
+      <div ref={ref}>
+        <Row>
+          <Col>
+            <motion.div animate={animation}></motion.div>
+          </Col>
+        </Row>
       </div>
     </Container>
   );
 };
 
-export default ServicesTitle;
+export default AboutInfo;
