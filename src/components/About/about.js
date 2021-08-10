@@ -7,8 +7,8 @@ import AboutInfo from "./aboutInfo";
 const About = () => {
   return (
     <div className="about-div overlap-1">
-      {/* <AboutImage /> */}
       <AboutTitle />
+
       <AboutInfo />
     </div>
   );

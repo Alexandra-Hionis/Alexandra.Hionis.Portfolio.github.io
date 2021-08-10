@@ -7,14 +7,12 @@
   color: seashell;
   margin-top: -1px;
 }
-
-#my-photo {
-  /* align-content: center !important; */
-  margin-top: 10%;
-  margin-bottom: 20px;
-  width: 150px;
-  height: 150px;
+.about-font {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 1.7em;
 }
+
 #about-me {
   margin-top: 20px;
   font-family: "Montserrat", sans-serif;
@@ -38,4 +36,11 @@
   .mobile-view {
     display: none;
   }
+}
+
+#my-photo {
+  width: 110px;
+  height: 110px;
+  margin-top: 10%;
+  margin-bottom: 15px;
 }

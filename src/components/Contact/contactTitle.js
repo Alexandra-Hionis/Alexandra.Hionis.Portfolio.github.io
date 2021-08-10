@@ -34,7 +34,8 @@ const ServicesTitle = () => {
             <Col md={12}>
               <h1 className="component-title">Contact</h1>
               <h1 className="sub-title">
-                Have a question or want to work together?
+                Have a question or want to work together? Please feel free to
+                reach out!
               </h1>
               <p className="colored-font"></p>
             </Col>

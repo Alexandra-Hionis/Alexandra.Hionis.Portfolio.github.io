@@ -50,7 +50,23 @@ const AboutTitle = () => {
           <motion.div animate={animation}>
             <Row>
               <Col md={12}>
-                <h1 className="title-font">
+                {" "}
+                <img
+                  // ref={(el) => {
+                  //   logoItem = el;
+                  // }}
+                  alt="Alexandra Hionis"
+                  src={process.env.PUBLIC_URL + "/images/my-image.png"}
+                  to="/services"
+                  // width="100%"
+                  // height="100%"
+                  id="my-photo"
+                />
+              </Col>
+            </Row>
+            <Row>
+              <Col md={12}>
+                <h1 className="about-font">
                   Welcome to my page! Nice to meet you.
                 </h1>
               </Col>

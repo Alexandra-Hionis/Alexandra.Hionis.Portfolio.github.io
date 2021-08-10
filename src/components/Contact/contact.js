@@ -3,14 +3,14 @@ import React from "react";
 import ContactTitle from "./contactTitle";
 import ContactInfo from "./contactInfo";
 
-// import AboutImage from "./image";
+// import Image from "../About/image";
 
 const About = () => {
   return (
     <div className="contact-div" id="contact">
-      {/* <AboutImage /> */}
       <ContactTitle />
       <ContactInfo />
+      {/* <Image /> */}
     </div>
   );
 };
