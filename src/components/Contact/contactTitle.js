@@ -37,6 +37,10 @@ const ServicesTitle = () => {
                 Have a question or want to work together? Please feel free to
                 reach out!
               </h1>
+              <h1 className="sub-title">
+                At this time, email is the quickest way to get in touch with me.
+                I typically respond within 24 hours.
+              </h1>
               <p className="colored-font"></p>
             </Col>
           </Row>

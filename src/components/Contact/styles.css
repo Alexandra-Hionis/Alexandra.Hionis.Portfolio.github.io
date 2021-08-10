@@ -2,3 +2,15 @@
   font-size: 1em;
   font-family: "Montserrat", sans-serif;
 }
+
+/*  */
+#email-icon {
+  margin: 10px;
+}
+/* svg {
+  width: 5%;
+} */
+.contact-link {
+  text-decoration: none;
+  color: black;
+}
