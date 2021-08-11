@@ -34,18 +34,15 @@ const AboutInfo = () => {
         <Row>
           <Col>
             <motion.div animate={animation} className="contact-info-div">
-              {/* <svg viewBox="0 0 10 10">
-                <polygon points="3 0, 7 0, 10 3, 10 7, 7 10, 3 10, 0 7, 0 3" />
-              </svg> */}
               <Row>
                 <Col md={12}>
-                  <p>
+                  <p id="email-p">
                     <img
                       alt="email icon"
-                      src={process.env.PUBLIC_URL + "/images/email-icon.png"}
+                      src={process.env.PUBLIC_URL + "/images/email.png"}
                       width="45px"
                       height="45px"
-                      id="contact-icon"
+                      id="email-icon"
                     />
                     <a
                       class="contact-link"
@@ -56,19 +53,6 @@ const AboutInfo = () => {
                   </p>
                 </Col>
               </Row>
-              {/* <Row>
-                <Col md={12}>
-                  <p>
-                    <img
-                      alt="logo"
-                      src={process.env.PUBLIC_URL + "/images/logo.png"}
-                      width="105px"
-                      height="105px"
-                      // id="contact-icon"
-                    />
-                  </p>
-                </Col>
-              </Row> */}
             </motion.div>
           </Col>
         </Row>

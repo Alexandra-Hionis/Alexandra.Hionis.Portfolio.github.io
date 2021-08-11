@@ -44,8 +44,8 @@ const AboutInfo = () => {
                 <span className="about-info">
                   HTML5, CSS3, JAVASCRIPT, REACT.JS, NODE.JS, BOOTSTRAP,{" "}
                 </span>{" "}
-                and more! I have a serious passion for coding and bringing ideas
-                to life. If you're looking for a{" "}
+                and more! I have a serious passion for coding and bringing
+                websites to life. If you're looking for a{" "}
                 <span className="about-info">
                   simple and beauftiful website,{" "}
                 </span>{" "}

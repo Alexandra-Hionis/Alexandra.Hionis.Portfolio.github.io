@@ -10,7 +10,7 @@ import About from "./components/About/about";
 import Services from "./components/Services/services";
 import Projects from "./components/Projects/projects";
 import Contact from "./components/Contact/contact";
-
+import Footer from "./components/Footer/footer";
 function Wrapper(props) {
   return (
     <>
@@ -33,6 +33,7 @@ function App() {
               <Services />
               <Projects />
               <Contact />
+              <Footer />
             </Wrapper>
           </Switch>
         </div>

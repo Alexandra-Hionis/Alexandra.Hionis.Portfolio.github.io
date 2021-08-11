@@ -3,13 +3,10 @@
   font-family: "Montserrat", sans-serif;
 }
 
-/*  */
-#contact-icon {
+#email-icon {
   margin: 10px;
 }
-/* svg {
-  width: 5%;
-} */
+
 .contact-link {
   text-decoration: none;
   color: black;
@@ -18,4 +15,8 @@
 .freelance-link {
   text-decoration: none;
   color: #f35959;
+}
+
+#email-p {
+  margin-bottom: 5%;
 }

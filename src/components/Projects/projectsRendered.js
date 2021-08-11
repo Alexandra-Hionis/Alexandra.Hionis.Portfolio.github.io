@@ -31,7 +31,7 @@ function ProjectsRendered() {
 
   return (
     <Container>
-      <div ref={ref} className="">
+      <div ref={ref}>
         {projects.map((project) => (
           <motion.div animate={animation}>
             <Row>
