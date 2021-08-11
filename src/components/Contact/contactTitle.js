@@ -31,8 +31,8 @@ const ServicesTitle = () => {
       <div ref={ref} className="contact-div">
         <motion.div animate={animation}>
           <Row>
-            <Col md={3}></Col>
-            <Col md={6}>
+            <Col md={2}></Col>
+            <Col md={8}>
               <h1 className="component-title">Contact</h1>
               <p className="sub-title">
                 Have a question or want to work together? Please feel free to
@@ -58,7 +58,7 @@ const ServicesTitle = () => {
                 within 24 hours.
               </p>
             </Col>
-            <Col md={3}></Col>
+            <Col md={2}></Col>
           </Row>
         </motion.div>
       </div>

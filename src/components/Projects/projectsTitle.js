@@ -31,14 +31,17 @@ const ProjectsTitle = () => {
       <div ref={ref} id="projects">
         <motion.div animate={animation}>
           <Row>
-            <Col md={12}>
-              <h1 className="component-title">Projects</h1>
+            <Col md={2}></Col>
+            <Col md={8}>
+              <h1 className="project-title">Projects</h1>
 
               <h1 className="sub-title" id="projects-sub">
                 {" "}
-                Check out my work
+                Here are some recent and upcoming projects. Feel free to scroll
+                through the images, and visit the sites!
               </h1>
             </Col>
+            <Col md={2}></Col>
           </Row>
         </motion.div>
       </div>
