@@ -33,15 +33,29 @@ const ServicesTitle = () => {
           <Row>
             <Col md={12}>
               <h1 className="component-title">Contact</h1>
-              <h1 className="sub-title">
+              <p className="sub-title">
                 Have a question or want to work together? Please feel free to
-                reach out!
-              </h1>
-              <h1 className="sub-title">
-                At this time, email is the quickest way to get in touch with me.
-                I typically respond within 24 hours.
-              </h1>
-              <p className="colored-font"></p>
+                reach out! At this time, I host my small freelance business on
+                both{" "}
+                <a
+                  class="freelance-link"
+                  target="_blank"
+                  href="https://www.fiverr.com/ah_websites?up_rollout=true"
+                >
+                  Fiverr{" "}
+                </a>
+                and{" "}
+                <a
+                  class="freelance-link"
+                  target="_blank"
+                  href="https://www.upwork.com/freelancers/~01f4c77eb5abe7904e"
+                >
+                  Upwork{" "}
+                </a>
+                . You can also reach out via{" "}
+                <span className="colored-font">email</span>. I typically respond
+                within 24 hours.
+              </p>
             </Col>
           </Row>
         </motion.div>

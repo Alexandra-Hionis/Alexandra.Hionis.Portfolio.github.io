@@ -4,7 +4,7 @@
 }
 
 /*  */
-#email-icon {
+#contact-icon {
   margin: 10px;
 }
 /* svg {
@@ -13,4 +13,9 @@
 .contact-link {
   text-decoration: none;
   color: black;
+}
+
+.freelance-link {
+  text-decoration: none;
+  color: #f35959;
 }

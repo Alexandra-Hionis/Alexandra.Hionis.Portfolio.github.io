@@ -45,7 +45,7 @@ const AboutInfo = () => {
                       src={process.env.PUBLIC_URL + "/images/email-icon.png"}
                       width="45px"
                       height="45px"
-                      id="email-icon"
+                      id="contact-icon"
                     />
                     <a
                       class="contact-link"
@@ -53,17 +53,22 @@ const AboutInfo = () => {
                     >
                       alexandra.hionis@gmail.com
                     </a>
-                    <img
-                      alt="location icon"
-                      src={process.env.PUBLIC_URL + "/images/location.png"}
-                      width="45px"
-                      height="45px"
-                      id="email-icon"
-                    />
-                    Philadelphia, PA
                   </p>
                 </Col>
               </Row>
+              {/* <Row>
+                <Col md={12}>
+                  <p>
+                    <img
+                      alt="logo"
+                      src={process.env.PUBLIC_URL + "/images/logo.png"}
+                      width="105px"
+                      height="105px"
+                      // id="contact-icon"
+                    />
+                  </p>
+                </Col>
+              </Row> */}
             </motion.div>
           </Col>
         </Row>
