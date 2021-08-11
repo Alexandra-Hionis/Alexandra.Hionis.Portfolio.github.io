@@ -31,12 +31,13 @@ const ServicesTitle = () => {
       <div ref={ref} className="contact-div">
         <motion.div animate={animation}>
           <Row>
-            <Col md={12}>
+            <Col md={3}></Col>
+            <Col md={6}>
               <h1 className="component-title">Contact</h1>
               <p className="sub-title">
                 Have a question or want to work together? Please feel free to
-                reach out! At this time, I host my small freelance business on
-                both{" "}
+                reach out! <br></br>At this time, I host my small freelance
+                business on both{" "}
                 <a
                   class="freelance-link"
                   target="_blank"
@@ -57,6 +58,7 @@ const ServicesTitle = () => {
                 within 24 hours.
               </p>
             </Col>
+            <Col md={3}></Col>
           </Row>
         </motion.div>
       </div>

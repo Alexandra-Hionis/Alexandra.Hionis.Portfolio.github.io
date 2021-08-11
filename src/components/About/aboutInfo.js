@@ -52,6 +52,7 @@ const AboutInfo = () => {
                 you've found the right place! And if you're looking for a{" "}
                 <span className="about-info">
                   quietly confident and naturally curious developer,
+                  {/* innovative problem-solver who is passionate about developing websites */}
                 </span>{" "}
                 you've found one!
               </p>

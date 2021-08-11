@@ -12,6 +12,10 @@
   font-size: 1.1em;
 }
 
+#scroll-top {
+  scroll-behavior: smooth;
+}
+
 .social-icons {
   margin: 7px;
 }
@@ -34,6 +38,6 @@
 }
 
 .copyright {
-  margin-top: 10%;
+  margin-top: 7%;
   color: seashell;
 }

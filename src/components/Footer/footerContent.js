@@ -32,12 +32,14 @@ const FooterContent = () => {
           <Col lg={12}>
             <motion.div className="info-div" animate={animation}>
               <div className="footer-logo">
-                <img
-                  alt="logo"
-                  src={process.env.PUBLIC_URL + "/images/logo.png"}
-                  width="90px"
-                  height="90px"
-                />
+                <a href="/">
+                  <img
+                    alt="logo"
+                    src={process.env.PUBLIC_URL + "/images/logo.png"}
+                    width="90px"
+                    height="90px"
+                  />
+                </a>
               </div>
               <p id="footer-p">Check me out on my other social media links:</p>
 

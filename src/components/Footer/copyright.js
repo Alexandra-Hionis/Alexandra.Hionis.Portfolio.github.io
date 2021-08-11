@@ -25,15 +25,15 @@ function Copyright() {
 
   return (
     <Container>
-      <Row>
-        <Col sm={12}>
-          <footer ref={ref}>
+      <div ref={ref}>
+        <Row>
+          <Col sm={12}>
             <motion.div animate={animation} className="copyright">
               <p>Copyright &copy; Alexandra Hionis and A.H. Websites 2021</p>
             </motion.div>
-          </footer>
-        </Col>
-      </Row>
+          </Col>
+        </Row>
+      </div>
     </Container>
   );
 }

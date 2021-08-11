@@ -32,7 +32,8 @@ const ServicesTitle = () => {
         <div ref={ref}>
           <motion.div animate={animation}>
             <Row>
-              <Col md={12}>
+              <Col md={3}></Col>
+              <Col md={6}>
                 <h1 className="services-title">Services</h1>
                 <h1 className="sub-title">
                   I will build websites for you or your small business and
@@ -46,6 +47,7 @@ const ServicesTitle = () => {
                   </a>
                 </p>
               </Col>
+              <Col md={3}></Col>
             </Row>
           </motion.div>
         </div>
