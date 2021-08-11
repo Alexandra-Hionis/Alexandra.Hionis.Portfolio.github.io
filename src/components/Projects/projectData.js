@@ -6,7 +6,7 @@ export const projects = [
       "A personal business website for a client specializing in college prep and professional development. Built via React.js with ReactBootstrap framework.",
     image: "./images/college-prep.png",
     link1: "https://github.com/Alexandra-Hionis/College-Prep",
-    link2: "",
+    link2: "https://college-prep.herokuapp.com/",
   },
   {
     title: "Giveback Keeptrack",
