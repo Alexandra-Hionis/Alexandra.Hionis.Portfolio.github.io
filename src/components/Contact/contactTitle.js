@@ -36,8 +36,8 @@ const ServicesTitle = () => {
               <h1 className="component-title">Contact</h1>
               <p className="sub-title">
                 Have a question or want to work together? Please feel free to
-                reach out! <br></br>At this time, I host my small freelance
-                business on both{" "}
+                reach out! At this time, I host my small freelance business on
+                both{" "}
                 <a
                   class="freelance-link"
                   target="_blank"

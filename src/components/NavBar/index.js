@@ -1,5 +1,4 @@
 import React from "react";
-
 import { Navbar, Container, Nav } from "react-bootstrap";
 import "./styles.css";
 
@@ -30,7 +29,9 @@ function Navigation() {
             <Nav.Link href="#projects">Projects</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
 
-            <Nav.Link href="#resume">Resume</Nav.Link>
+            <Nav.Link href="/images/Coding-Resume.pdf" download>
+              Resume
+            </Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link href="#services">

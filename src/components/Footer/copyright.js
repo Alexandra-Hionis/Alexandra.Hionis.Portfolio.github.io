@@ -29,7 +29,7 @@ function Copyright() {
         <Row>
           <Col sm={12}>
             <motion.div animate={animation} className="copyright">
-              <p>Copyright &copy; Alexandra Hionis and A.H. Websites 2021</p>
+              <p>Copyright &copy; 2021 Alexandra Hionis</p>
             </motion.div>
           </Col>
         </Row>
