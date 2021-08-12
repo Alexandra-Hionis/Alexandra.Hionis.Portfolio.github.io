@@ -55,9 +55,9 @@ const ServicesIcon = () => {
                 <Col>
                   {" "}
                   <p className="list list-desc">
-                    I am not a designer, but I am design savvy. I value simple
-                    content structure and a clean, responsive and intuitive
-                    design.{" "}
+                    While I am design savvy, I do not specialize in web design.
+                    I value simple content structure and a clean, responsive and
+                    intuitive design.{" "}
                   </p>
                 </Col>
                 <Col>
@@ -135,8 +135,8 @@ const ServicesIcon = () => {
                 <Col>
                   {" "}
                   <p className="list list-desc">
-                    I've gained a great skill set as a coding bootcamp graduate,
-                    as well as a self-taught coder.{" "}
+                    I've developed a strong skill set as a coding bootcamp
+                    graduate, as well as a self-taught coder.{" "}
                   </p>
                 </Col>
                 <Col>
@@ -151,9 +151,7 @@ const ServicesIcon = () => {
                     <ListGroup.Item className="ul">
                       Upenn Coding Bootcamp Graduate
                     </ListGroup.Item>
-                    <ListGroup.Item className="ul">
-                      Psychology background
-                    </ListGroup.Item>
+
                     <ListGroup.Item className="ul">22+ projects</ListGroup.Item>
                     <ListGroup.Item className="ul">
                       Problem solver

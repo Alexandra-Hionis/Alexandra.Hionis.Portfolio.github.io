@@ -40,7 +40,7 @@ const AboutInfo = () => {
                 I am a{" "}
                 <span className="about-info">Front-End Web Developer</span>{" "}
                 living in Philadelphia, PA. I have 1 year experience building
-                20+ projects and gained great skills in{" "}
+                20+ projects and gained skills in{" "}
                 <span className="about-info">
                   HTML5, CSS3, JAVASCRIPT, REACT.JS, NODE.JS, BOOTSTRAP,{" "}
                 </span>{" "}

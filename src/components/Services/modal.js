@@ -16,7 +16,7 @@ function LaunchModal() {
     <>
       <Button
         variant="light"
-        className="btn-quest colored-font"
+        className="question-mark btn-quest colored-font"
         onClick={handleShow}
       >
         ?

@@ -85,6 +85,10 @@
 .custom-btn:hover {
   background-color: #252e3f;
 }
+.question-mark {
+  border: pink solid 2px;
+  border-radius: 90%;
+}
 .modal-body {
   font-family: "Montserrat", sans-serif;
 }
