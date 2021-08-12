@@ -5,12 +5,12 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/NavBar";
 // import Portfolio from "./pages/portfolio";
 import Home from "./components/Home/video-background";
-
 import About from "./components/About/about";
 import Services from "./components/Services/services";
 import Projects from "./components/Projects/projects";
 import Contact from "./components/Contact/contact";
 import Footer from "./components/Footer/footer";
+
 function Wrapper(props) {
   return (
     <>
@@ -28,7 +28,6 @@ function App() {
           <Switch>
             <Wrapper>
               <Route exact path="/" component={Home} />
-
               <About />
               <Services />
               <Projects />

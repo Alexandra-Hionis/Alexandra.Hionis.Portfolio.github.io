@@ -29,7 +29,11 @@ function Navigation() {
             <Nav.Link href="#projects">Projects</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
 
-            <Nav.Link href="/images/Coding-Resume.pdf" download>
+            <Nav.Link
+              target="_blank"
+              href="https://www.dropbox.com/s/lnpozogdfkyiarz/Coding-Resume.pdf?dl=0"
+              download
+            >
               Resume
             </Nav.Link>
           </Nav>
