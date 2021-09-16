@@ -142,7 +142,7 @@ const ServicesIcon = () => {
                 <Col>
                   <p className="list colored-font">Experiences I draw from:</p>
                   <p className="list">
-                    Inspiring sites, Building projects, My education
+                    Inspiring sites, building projects, my education
                   </p>
                 </Col>
                 <Col>

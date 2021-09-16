@@ -54,3 +54,9 @@
 .Typewriter__cursor {
   font-size: 2vw;
 }
+
+@media (max-width: 800px) {
+  #carouselContainer {
+    display: none !important;
+  }
+}
