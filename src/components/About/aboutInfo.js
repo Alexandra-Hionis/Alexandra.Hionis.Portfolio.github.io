@@ -47,7 +47,7 @@ const AboutInfo = () => {
                 and more! I have a serious passion for coding and bringing
                 websites to life. If you're looking for a{" "}
                 <span className="about-info">
-                  simple and beauftiful website,{" "}
+                  simple and beautiful website,{" "}
                 </span>{" "}
                 you've found the right place! And if you're looking for a{" "}
                 <span className="about-info">
