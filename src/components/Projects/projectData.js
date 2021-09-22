@@ -28,9 +28,9 @@ export const projects = [
   },
   {
     title: "Honeygo Pediatrics, LLC",
-    subtitle: "React.js, Node.js",
+    subtitle: "HTML, CSS, Javascript, Tailwind CSS",
     description:
-      "Business website for HoneyGo pediactrics located in Fallston, MD.",
+      "Business website for HoneyGo pediactrics located in White Marsh, MD.",
     image: "./images/comingsoon.png",
     link: "",
     ink2: "",
