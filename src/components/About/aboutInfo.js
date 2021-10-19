@@ -38,7 +38,9 @@ const AboutInfo = () => {
             <motion.div className="info-div" animate={animation}>
               <p id="about-me">
                 I am a{" "}
-                <span className="about-info">Front-End Web Developer</span>{" "}
+                <span className="about-info">
+                  Freelance Front-End Web Developer
+                </span>{" "}
                 living in Philadelphia, PA. I have 1 year experience building
                 20+ projects and gained skills in{" "}
                 <span className="about-info">

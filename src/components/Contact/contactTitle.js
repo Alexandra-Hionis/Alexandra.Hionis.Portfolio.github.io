@@ -39,7 +39,7 @@ const ServicesTitle = () => {
                 reach out! At this time, I host my small freelance business on
                 both{" "}
                 <a
-                  class="freelance-link"
+                  className="freelance-link"
                   target="_blank"
                   href="https://www.fiverr.com/ah_websites?up_rollout=true"
                 >
@@ -47,7 +47,7 @@ const ServicesTitle = () => {
                 </a>
                 and{" "}
                 <a
-                  class="freelance-link"
+                  className="freelance-link"
                   target="_blank"
                   href="https://www.upwork.com/freelancers/~01f4c77eb5abe7904e"
                 >

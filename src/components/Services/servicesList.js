@@ -55,9 +55,9 @@ const ServicesIcon = () => {
                 <Col>
                   {" "}
                   <p className="list list-desc">
-                    While I am design savvy, I do not specialize in web design.
-                    I value simple content structure and a clean, responsive and
-                    intuitive design.{" "}
+                    As a freelance Front-End Web Developer, I have to be design
+                    savvy. I value simple content structure and clean,
+                    responsive designs.{" "}
                   </p>
                 </Col>
                 <Col>
@@ -136,13 +136,14 @@ const ServicesIcon = () => {
                   {" "}
                   <p className="list list-desc">
                     I've developed a strong skill set as a coding bootcamp
-                    graduate, as well as a self-taught coder.{" "}
+                    graduate, as well as a freelancer.{" "}
                   </p>
                 </Col>
                 <Col>
                   <p className="list colored-font">Experiences I draw from:</p>
                   <p className="list">
-                    Inspiring sites, building projects, my education
+                    Inspiring sites, building projects, my education, freelance
+                    gigs
                   </p>
                 </Col>
                 <Col>

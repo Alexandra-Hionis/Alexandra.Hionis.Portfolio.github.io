@@ -45,7 +45,7 @@ const AboutInfo = () => {
                       id="email-icon"
                     />
                     <a
-                      class="contact-link"
+                      className="contact-link"
                       href="mailto:alexandra.hionis@gmail.com"
                     >
                       alexandra.hionis@gmail.com
