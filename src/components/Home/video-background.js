@@ -15,7 +15,7 @@ const VideoCarousel = () => {
       <Carousel>
         <Carousel.Item className="carousel-item">
           <video
-            className="d-block width"
+            className="d-block w-100"
             autoPlay
             loop
             muted
