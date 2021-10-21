@@ -27,12 +27,12 @@ export const projects = [
     link2: "https://alexandra-hionis.github.io/Tip-Calculator/",
   },
   {
-    title: "Honeygo Pediatrics, LLC",
+    title: "COMING SOON: Honeygo Pediatrics, LLC",
     subtitle: "HTML, CSS, Javascript, Tailwind CSS",
     description:
       "Business website for HoneyGo pediactrics located in White Marsh, MD.",
-    image: "./images/comingsoon.png",
-    link: "",
+    image: "./images/honeygo.png",
+    link: "https://github.com/Alexandra-Hionis/Honeygo-Pediatrics",
     ink2: "",
   },
 ];
