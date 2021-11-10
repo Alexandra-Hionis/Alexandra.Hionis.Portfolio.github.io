@@ -96,17 +96,6 @@ const FooterContent = () => {
                     height="36px"
                   />
                 </a>
-
-                {/* Twitter */}
-                <a target="_blank" href="https://twitter.com/AlexandraHionis">
-                  <img
-                    alt="icon"
-                    className="social-icons"
-                    src={process.env.PUBLIC_URL + "/images/twitter.png"}
-                    width="36px"
-                    height="36px"
-                  />
-                </a>
               </div>
             </motion.div>
           </Col>
