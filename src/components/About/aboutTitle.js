@@ -39,7 +39,10 @@ const AboutTitle = () => {
                   //   logoItem = el;
                   // }}
                   alt="Alexandra Hionis"
-                  src={process.env.PUBLIC_URL + "/images/my-image.png"}
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/images/my-photo-copy-modified.png"
+                  }
                   to="/services"
                   // width="100%"
                   // height="100%"
