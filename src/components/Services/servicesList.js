@@ -117,6 +117,7 @@ const ServicesIcon = () => {
                     <ListGroup.Item className="ul">
                       Chrome Developer Tools
                     </ListGroup.Item>
+                    <ListGroup.Item className="ul">WordPress</ListGroup.Item>
                   </ListGroup>
                 </Col>
               </Col>{" "}
@@ -136,14 +137,14 @@ const ServicesIcon = () => {
                   {" "}
                   <p className="list list-desc">
                     I've developed a strong skill set as a coding bootcamp
-                    graduate, as well as a freelancer.{" "}
+                    graduate, during my day job, as well as a freelancer.{" "}
                   </p>
                 </Col>
                 <Col>
                   <p className="list colored-font">Experiences I draw from:</p>
                   <p className="list">
                     Inspiring sites, building projects, my education, freelance
-                    gigs
+                    gigs, and my day job
                   </p>
                 </Col>
                 <Col>

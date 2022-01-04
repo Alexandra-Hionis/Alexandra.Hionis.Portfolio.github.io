@@ -36,7 +36,7 @@ const ServicesTitle = () => {
               <Col md={8}>
                 <h1 className="component-title">Services</h1>
                 <h1 className="sub-title">
-                  I will build websites for you or your small business and
+                  I will build a website for you or your small business and
                   manage it, making sure it is up to date and reliable! Check
                   out my skills below.
                 </h1>
