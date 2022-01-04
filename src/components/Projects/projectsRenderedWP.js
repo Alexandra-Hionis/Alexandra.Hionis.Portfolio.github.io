@@ -15,7 +15,7 @@ function ProjectsRenderedWP() {
   useEffect(() => {
     console.log("use effect hook, inView = ", inView);
     if (inView) {
-      animation.start({ x: 0, transition: { duration: 2 } });
+      animation.start({ x: 0, transition: { duration: 0.3 } });
     }
     // Slide in from left
     if (!inView) {

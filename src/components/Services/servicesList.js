@@ -15,7 +15,7 @@ const ServicesIcon = () => {
     console.log("use effect hook, inView = ", inView);
     //   if parent in view, start animation
     if (inView) {
-      animation.start({ x: 0, transition: { duration: 1 } });
+      animation.start({ x: 0, transition: { duration: 0.3 } });
     }
 
     // Slide in from right

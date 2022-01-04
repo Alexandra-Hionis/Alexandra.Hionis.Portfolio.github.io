@@ -17,7 +17,7 @@ const AboutTitle = () => {
       animation.start({
         opacity: 1,
         scale: 1,
-        transition: { duration: 2 },
+        transition: { duration: 0.3 },
       });
     }
     // if not in view, start another animation. Completely off screen
