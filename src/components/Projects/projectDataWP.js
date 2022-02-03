@@ -5,7 +5,7 @@ export const projectswp = [
     description:
       "Business website for Fireside Service & Installation located in Traverse City, Minnesota. With over 25 years of experience in the fireplace installation industry, they strive to be the complete hearth store, specializing in all aspects of the hearth industry as well as outdoor kitchens and outdoor heating. Built with the help of my work team at Hooker & Company Advertising.",
     image: "./images/firesideservices.png",
-    link1: "http://fireside.hookerandcompanyadvertising.com/",
+    link1: "#",
   },
   {
     title: "Hearthcrest Fireplace",
@@ -13,6 +13,6 @@ export const projectswp = [
     description:
       "Website for Hearthcrest Fireplace, a business that provides quality hearth products in Minnesota. Built with the help of my work team at Hooker & Company Advertising.",
     image: "./images/hearthcrest.png",
-    link1: "http://hookandco.com/HC2021/",
+    link1: "#",
   },
 ];
