@@ -47,6 +47,16 @@ function LaunchModal() {
             that fades in, or calculations that go on behind the scenes. It even
             powers pop up modals like the one you're reading now.{" "}
           </h6>
+          <br></br>
+          <p>
+            Lastly, I want to bring up Content Management Systems or{" "}
+            <span className="colored-font">CMS</span>:
+          </p>
+          You may have heard the term CMS floating around. A Content Management
+          System is a software that is used to build websites and create content
+          to be published on the internet. Typically CMS allows you to create a
+          website without writing too much code. The CMS I work with is
+          <span className="colored-font"> WordPress</span>.
         </Modal.Body>
         <Modal.Footer>
           <Button

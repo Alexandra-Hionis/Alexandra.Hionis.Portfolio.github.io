@@ -95,9 +95,11 @@ const ServicesIcon = () => {
                 </Col>
                 <Col>
                   <p className="list colored-font">
-                    Languages I know: <LaunchModal />{" "}
+                    Languages and CMS I know: <LaunchModal />{" "}
                   </p>
-                  <p className="list">HTML, CSS, JavaScript, React.js</p>
+                  <p className="list">
+                    HTML, CSS, JavaScript, React.js, WordPress
+                  </p>
                 </Col>
                 <Col>
                   <p className="list colored-font">Dev Tools:</p>
@@ -155,6 +157,9 @@ const ServicesIcon = () => {
                     </ListGroup.Item>
 
                     <ListGroup.Item className="ul">22+ projects</ListGroup.Item>
+                    <ListGroup.Item className="ul">
+                      WordPress experience
+                    </ListGroup.Item>
                     <ListGroup.Item className="ul">
                       Problem solver
                     </ListGroup.Item>
