@@ -10,6 +10,15 @@ import Services from "./components/Services/services";
 import Projects from "./components/Projects/projects";
 import Contact from "./components/Contact/contact";
 import Footer from "./components/Footer/footer";
+import { Accessibility } from "accessibility/src/main";
+
+window.addEventListener(
+  "load",
+  function () {
+    new Accessibility();
+  },
+  false
+);
 
 function Wrapper(props) {
   return (
