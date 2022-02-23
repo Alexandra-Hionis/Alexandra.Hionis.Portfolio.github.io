@@ -31,7 +31,7 @@ function Navigation() {
 
             <Nav.Link
               target="_blank"
-              href="https://www.dropbox.com/s/gfpb07tpoboqr3r/Resume-Coding.docx?dl=0"
+              href="https://www.dropbox.com/s/w3earkicd58buvy/Resume-Coding.docx?dl=0"
               download
             >
               Resume
