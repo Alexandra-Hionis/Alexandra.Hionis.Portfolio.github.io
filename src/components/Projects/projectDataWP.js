@@ -15,4 +15,12 @@ export const projectswp = [
     image: "./images/hearthcrest.png",
     link1: "#",
   },
+  {
+    title: "COMING SOON: Asset HR",
+    subtitle: "WordPress, Elementor, HTML, CSS",
+    description:
+      "Website for Asset HR, a human resources consulting firm. Built with the help of my work team at Hooker & Company Advertising.",
+    image: "./images/assethr.png",
+    link1: "#",
+  },
 ];
