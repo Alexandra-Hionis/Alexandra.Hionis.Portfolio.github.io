@@ -31,7 +31,7 @@ export const projects = [
     subtitle: "HTML, CSS, Javascript, Tailwind CSS",
     description:
       "Business website for HoneyGo pediactrics located in White Marsh, MD.",
-    image: "./images/HG-Ped.png",
+    image: "./images/Honeygo.jpg",
     link: "https://github.com/Alexandra-Hionis/Honeygo-Pediatrics-LLC",
     link2: "https://github.com/Alexandra-Hionis/Honeygo-Pediatrics-LLC",
   },
