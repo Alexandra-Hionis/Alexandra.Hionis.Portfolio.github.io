@@ -40,6 +40,10 @@ const ServicesTitle = () => {
                   manage it, making sure it is up to date and reliable! Check
                   out my skills below.
                 </h1>
+                <h1 className="sub-title">
+                  I can make running your website easy! I also offer website
+                  hosting, domain transfer, SEO, lighthouse, and other services.
+                </h1>
                 <p className="interested">
                   Interested?{" "}
                   <a href="#contact" id="collaborate-link">

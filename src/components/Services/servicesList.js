@@ -55,9 +55,8 @@ const ServicesIcon = () => {
                 <Col>
                   {" "}
                   <p className="list list-desc">
-                    As a freelance Front-End Web Developer, I have to be design
-                    savvy. I value simple content structure and clean,
-                    responsive designs.{" "}
+                    I have to be design savvy. I value simple content structure
+                    and clean, responsive designs.{" "}
                   </p>
                 </Col>
                 <Col>
@@ -69,7 +68,10 @@ const ServicesIcon = () => {
                   <ListGroup className="list ul" variant="">
                     <ListGroup.Item className="ul">Canva</ListGroup.Item>
                     <ListGroup.Item className="ul">InVision</ListGroup.Item>
-                    <ListGroup.Item className="ul">PhotoPea</ListGroup.Item>
+                    <ListGroup.Item className="ul">PhotoShop</ListGroup.Item>
+                    <ListGroup.Item className="ul">
+                      Adobe Creative Suite
+                    </ListGroup.Item>
                     <ListGroup.Item className="ul">Google Fonts</ListGroup.Item>
                   </ListGroup>
                 </Col>
@@ -89,8 +91,8 @@ const ServicesIcon = () => {
                 <Col>
                   {" "}
                   <p className="list list-desc">
-                    As a freelance developer, I love to code and enjoy bringing
-                    client's ideas to life in the browser.{" "}
+                    I love to code and enjoy bringing client's ideas to life in
+                    the browser.{" "}
                   </p>
                 </Col>
                 <Col>
@@ -107,7 +109,9 @@ const ServicesIcon = () => {
                     <ListGroup.Item className="ul">
                       Visual Studio Code
                     </ListGroup.Item>
+                    <ListGroup.Item className="ul">NPM</ListGroup.Item>
                     <ListGroup.Item className="ul">Bootstrap</ListGroup.Item>
+                    <ListGroup.Item className="ul">Tailwind CSS</ListGroup.Item>
                     <ListGroup.Item className="ul">Bulma</ListGroup.Item>
                     <ListGroup.Item className="ul">GitHub</ListGroup.Item>
                     <ListGroup.Item className="ul">Git</ListGroup.Item>
@@ -120,6 +124,7 @@ const ServicesIcon = () => {
                       Chrome Developer Tools
                     </ListGroup.Item>
                     <ListGroup.Item className="ul">WordPress</ListGroup.Item>
+                    <ListGroup.Item className="ul">Lighthouse</ListGroup.Item>
                   </ListGroup>
                 </Col>
               </Col>{" "}
@@ -138,8 +143,8 @@ const ServicesIcon = () => {
                 <Col>
                   {" "}
                   <p className="list list-desc">
-                    I've developed a strong skill set as a coding bootcamp
-                    graduate, during my day job, as well as a freelancer.{" "}
+                    I've developed a strong skill set as a Front-End Web
+                    Developer.{" "}
                   </p>
                 </Col>
                 <Col>
@@ -157,9 +162,7 @@ const ServicesIcon = () => {
                     </ListGroup.Item>
 
                     <ListGroup.Item className="ul">22+ projects</ListGroup.Item>
-                    <ListGroup.Item className="ul">
-                      WordPress experience
-                    </ListGroup.Item>
+                    <ListGroup.Item className="ul">WordPress</ListGroup.Item>
                     <ListGroup.Item className="ul">
                       Problem solver
                     </ListGroup.Item>
