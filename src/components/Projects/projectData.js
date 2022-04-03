@@ -33,6 +33,6 @@ export const projects = [
       "Business website for HoneyGo pediactrics located in White Marsh, MD.",
     image: "./images/Honeygo.jpg",
     link: "https://github.com/Alexandra-Hionis/Honeygo-Pediatrics-LLC",
-    link2: "https://github.com/Alexandra-Hionis/Honeygo-Pediatrics-LLC",
+    link2: "https://shrouded-coast-86468.herokuapp.com/",
   },
 ];
