@@ -42,7 +42,7 @@ const ServicesTitle = () => {
                   target="_blank"
                   href="https://www.upwork.com/freelancers/~01f4c77eb5abe7904e"
                 >
-                  Upwork{" "}
+                {" "}  Upwork{" "}
                 </a>
                 and through word of mouth. You can also reach out via{" "}
                 <span className="colored-font">email</span>. I typically respond

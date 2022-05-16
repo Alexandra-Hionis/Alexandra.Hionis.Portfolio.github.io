@@ -69,20 +69,6 @@ const FooterContent = () => {
                   />
                 </a>
 
-                {/* Fiverr */}
-                <a
-                  target="_blank"
-                  href="https://www.fiverr.com/ah_websites?up_rollout=true"
-                >
-                  <img
-                    alt="icon"
-                    className="social-icons"
-                    src={process.env.PUBLIC_URL + "/images/fiverr.png"}
-                    width="36px"
-                    height="36px"
-                  />
-                </a>
-
                 {/* Upwork */}
                 <a
                   target="_blank"
