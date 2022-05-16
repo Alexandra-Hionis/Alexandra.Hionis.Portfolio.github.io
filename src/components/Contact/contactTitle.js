@@ -37,15 +37,6 @@ const ServicesTitle = () => {
               <p className="sub-title">
                 Have a question or want to work together? Please feel free to
                 reach out! At this time, I host my small freelance business on
-                both{" "}
-                <a
-                  className="freelance-link"
-                  target="_blank"
-                  href="https://www.fiverr.com/ah_websites?up_rollout=true"
-                >
-                  Fiverr{" "}
-                </a>
-                and{" "}
                 <a
                   className="freelance-link"
                   target="_blank"
@@ -53,7 +44,7 @@ const ServicesTitle = () => {
                 >
                   Upwork{" "}
                 </a>
-                . You can also reach out via{" "}
+                and through word of mouth. You can also reach out via{" "}
                 <span className="colored-font">email</span>. I typically respond
                 within 24 hours.
               </p>

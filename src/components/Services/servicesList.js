@@ -162,7 +162,6 @@ const ServicesIcon = () => {
                     </ListGroup.Item>
 
                     <ListGroup.Item className="ul">22+ projects</ListGroup.Item>
-                    <ListGroup.Item className="ul">WordPress</ListGroup.Item>
                     <ListGroup.Item className="ul">
                       Problem solver
                     </ListGroup.Item>

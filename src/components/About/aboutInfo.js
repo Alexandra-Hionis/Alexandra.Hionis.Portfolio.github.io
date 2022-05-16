@@ -45,12 +45,10 @@ const AboutInfo = () => {
                 20+ projects and gained skills in{" "}
                 <span className="about-info">
                   HTML5, CSS3, JAVASCRIPT, REACT.JS, NODE.JS, TAILWIND,
-                  BOOTSTRAP, WORDPRESS,{" "}
+                  BOOTSTRAP,{" "}
                 </span>{" "}
-                and more! Professionally, I work for a small advertising firm as
-                a web developer for a company located in Minnesota. I have a
-                serious passion for coding and bringing websites to life. If
-                you're looking for a{" "}
+                and more! I have a serious passion for coding and bringing
+                websites to life. If you're looking for a{" "}
                 <span className="about-info">
                   simple and beautiful website,{" "}
                 </span>{" "}
